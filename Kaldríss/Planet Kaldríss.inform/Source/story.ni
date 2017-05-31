@@ -32,6 +32,8 @@ The Smoke Nodule is in the Spaceship Storage. The description of the Smoke Nodul
 
 [Hide Energy Orb]
 
+[Plasma Cannon nur nutzbar wenn Energy Orb dafür verwendet wird?]
+
 The Energy Orb is in the Spaceship Bridge. The description of the Energy Orb is "If used correctly it creates a warm energy that withstands even the coldest temperatures. It also emits a specific light that only certain creatures are able to see. You are not one of them."
 
 [Hide Emergency Fire Kit in a fixed object]
