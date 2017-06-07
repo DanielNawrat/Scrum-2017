@@ -11,10 +11,20 @@ Axesto_Sitis is a person. The Player is Axesto_Sitis. The printed name of Axesto
 [End of Initialisation]
 
 
-[Räume]
+The landing zone_Sitis is a region. The flat rock_Sitis and the exit of the spaceship_Sitis are in the landing zone_Sitis. 
+The the exit of the spaceship_Sitis is a room.
+The flat rock_Sitis is a room.
+
+The desert_Sitis is a region. The eastern desert_Sitis and the west desert_Sitis are in the desert_Sitis.
+The eastern desert_Sitis is a room.
+The west desert_Sitis is a room.
+The west desert_Sitis is west of the exit of the spaceship_Sitis.
+
+
+[[Räume]
 
 [Raum 1 - Landing Zone]
-The Landing Zone_Sitis is a room. The printed name of the Landing Zone_Sitis is “Landing Zone”. "[italic type] You land on a flat rock. Description missed! But somehow you have the impression someone's living here. So - why you're still here [roman type]?"
+The Landing Zone_Sitis is a region. The printed name of the Landing Zone_Sitis is “Landing Zone”. "[italic type] You land on a flat rock. Description missed! But somehow you have the impression someone's living here. So - why you're still here [roman type]?"
 
 Instead of going north, say "You follow the mountain's way into a canyon. All you can see is a big field of cactuses. You can't pass them."
 Instead of going south, say "Here seems to be the end of Sitis. You can't go this way any longer."
@@ -22,7 +32,7 @@ Instead of going west, say "You arrive at a stone cave. As you try to enter, sma
 
 
 [Raum 2 - The Desert of Sitis]
-The Desert_Sitis is a room. The printed name of the Desert_Sitis is "The Desert of Sitis". "[italic type] The Desert of Sitis gives you the chance to gain orientation. When you look north you see a big brown golden palace. When you look east it seems like there's something dangerous. Description missed! When you look south you recognize a lot of small white houses. It seems like people are living there [roman type]."
+The Desert_Sitis is a region. The printed name of the Desert_Sitis is "The Desert of Sitis". "[italic type] The Desert of Sitis gives you the chance to gain orientation. When you look north you see a big brown golden palace. When you look east it seems like there's something dangerous. Description missed! When you look south you recognize a lot of small white houses. It seems like people are living there [roman type]."
 The Desert_Sitis is east of the Landing Zone_Sitis.
 
 Instead of going north, say "This is a dangerous area. It's the Palace of Holy Scorpius. Who he is? It's your mission to find out."
@@ -43,11 +53,11 @@ The House of Anaidis_Sitis is a room. The printed name of the House of Anaidis_S
 
 
 
-The Jail_Sitis is a room. The Jail Basement_Sitis is in the Jail_Sitis.
+The Jail_Sitis is a region. The Jail Basement_Sitis is in the Jail_Sitis.
 The Jail_Sitis is east of the Desert_Sitis.
 
-The Palace of Holy Scorpius_Sitis is a room. 
-The Palace of Holy Scorpius_Sitis is north of the Desert_Sitis.
+The Palace of Holy Scorpius_Sitis is a region. 
+The Palace of Holy Scorpius_Sitis is north of the Desert_Sitis.]
 
 
 
