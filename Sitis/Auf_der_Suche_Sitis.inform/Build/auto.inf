@@ -4404,7 +4404,7 @@ Global lightflag = false;
 ! ListWriter.i6t: Memory
 ! ==== ==== ==== ==== ==== ==== ==== ==== ==== ====
 
-Constant REQUISITION_STACK_SIZE = 3*35;
+Constant REQUISITION_STACK_SIZE = 3*38;
 Array requisition_stack --> REQUISITION_STACK_SIZE;
 Global requisition_stack_pointer = 0;
 
@@ -11054,7 +11054,7 @@ Object I126_axesto_sitis ""
     with IK2_Count 1
     with IK2_Link I129_flat_rock__sitis
     with IK8_Count 1
-    with IK8_Link I145_mit_ra_sitis
+    with IK8_Link I150_ilithios_sitis
     with KD_Count 8
     with action_bitmap 0 0 0 0 0 
     with initial BC_150
@@ -11102,7 +11102,7 @@ Object I129_flat_rock__sitis ""
     with vector 0
     has mark_as_thing
     with IK2_Count 2
-    with IK2_Link I145_mit_ra_sitis
+    with IK2_Link I150_ilithios_sitis
     with KD_Count 2
     with name 'flat' 'rock' '_sitis' 'things//p' 
     with action_bitmap 0 0 0 0 0 
@@ -11197,9 +11197,29 @@ Object I134_rock_mine_sitis ""
     with article BC_192
 ;
 
+Object -> I150_ilithios_sitis ""
+    class K8_person
+    with short_name BC_193
+    has proper
+    with vector 0
+    has mark_as_thing
+    with IK2_Count 9
+    with IK2_Link I145_mit_ra_sitis
+    with IK8_Count 7
+    with IK8_Link I145_mit_ra_sitis
+    with KD_Count 8
+    with name 'ilithios_sitis' 'people//p' 
+    with action_bitmap 0 0 0 0 0 
+    with description BC_194
+    with initial BC_195
+    with list_together BC_196
+    with plural BC_197
+    with article BC_198
+;
+
 Object I135_village_sicuum_sitis ""
     class K9_region
-    with short_name BC_193
+    with short_name BC_199
     with vector 0
     with regional_found_in [ ;
         if (TestRegionalContainment(location, I135_village_sicuum_sitis)) rtrue; rfalse;],
@@ -11208,14 +11228,14 @@ Object I135_village_sicuum_sitis ""
     with KD_Count 9
     with name 'village' 'sicuum_sitis' 'regions//p' 
     with action_bitmap 0 0 0 0 0 
-    with list_together BC_194
-    with plural BC_195
-    with article BC_196
+    with list_together BC_200
+    with plural BC_201
+    with article BC_202
 ;
 
 Object I136_agora_sitis ""
     class K1_room
-    with short_name BC_197
+    with short_name BC_203
     with map_region I135_village_sicuum_sitis
     with vector 0
     with room_index -1
@@ -11224,15 +11244,15 @@ Object I136_agora_sitis ""
     with IK1_Link I137_domum_praesidium_sitis
     with KD_Count 1
     with name 'agora_sitis' 'rooms//p' 
-    with description BC_198
-    with list_together BC_199
-    with plural BC_200
-    with article BC_201
+    with description BC_204
+    with list_together BC_205
+    with plural BC_206
+    with article BC_207
 ;
 
 Object I137_domum_praesidium_sitis ""
     class K1_room
-    with short_name BC_202
+    with short_name BC_208
     with map_region I135_village_sicuum_sitis
     with vector 0
     with room_index -1
@@ -11241,15 +11261,15 @@ Object I137_domum_praesidium_sitis ""
     with IK1_Link I138_shelter_sitis
     with KD_Count 1
     with name 'domum' 'praesidium_sitis' 'rooms//p' 
-    with description BC_203
-    with list_together BC_204
-    with plural BC_205
-    with article BC_206
+    with description BC_209
+    with list_together BC_210
+    with plural BC_211
+    with article BC_212
 ;
 
 Object -> I145_mit_ra_sitis ""
     class K8_person
-    with short_name BC_207
+    with short_name BC_213
     has proper
     with vector 0
     has mark_as_thing
@@ -11260,16 +11280,16 @@ Object -> I145_mit_ra_sitis ""
     with KD_Count 8
     with name 'mitéra_sitis' 'people//p' 
     with action_bitmap 0 0 0 0 0 
-    with description BC_208
-    with initial BC_209
-    with list_together BC_210
-    with plural BC_211
-    with article BC_212
+    with description BC_214
+    with initial BC_215
+    with list_together BC_216
+    with plural BC_217
+    with article BC_218
 ;
 
 Object I138_shelter_sitis ""
     class K1_room
-    with short_name BC_213
+    with short_name BC_219
     with map_region I135_village_sicuum_sitis
     with vector 0
     with room_index -1
@@ -11278,15 +11298,15 @@ Object I138_shelter_sitis ""
     with IK1_Link I139_secret_passage_sitis
     with KD_Count 1
     with name 'shelter_sitis' 'rooms//p' 
-    with description BC_214
-    with list_together BC_215
-    with plural BC_216
-    with article BC_217
+    with description BC_220
+    with list_together BC_221
+    with plural BC_222
+    with article BC_223
 ;
 
 Object -> I146_anaidis_sitis ""
     class K8_person
-    with short_name BC_218
+    with short_name BC_224
     has proper
     with vector 0
     has mark_as_thing
@@ -11297,26 +11317,6 @@ Object -> I146_anaidis_sitis ""
     with KD_Count 8
     with name 'anaidis_sitis' 'people//p' 
     with action_bitmap 0 0 0 0 0 
-    with description BC_219
-    with initial BC_220
-    with list_together BC_221
-    with plural BC_222
-    with article BC_223
-;
-
-Object -> I147_carissimi_sitis ""
-    class K8_person
-    with short_name BC_224
-    has proper
-    with vector 0
-    has mark_as_thing
-    with IK2_Count 6
-    with IK2_Link I140_secret_passage
-    with IK8_Count 4
-    with IK8_Link nothing
-    with KD_Count 8
-    with name 'carissimi_sitis' 'people//p' 
-    with action_bitmap 0 0 0 0 0 
     with description BC_225
     with initial BC_226
     with list_together BC_227
@@ -11324,9 +11324,29 @@ Object -> I147_carissimi_sitis ""
     with article BC_229
 ;
 
+Object -> I147_carissimi_sitis ""
+    class K8_person
+    with short_name BC_230
+    has proper
+    with vector 0
+    has mark_as_thing
+    with IK2_Count 6
+    with IK2_Link I140_secret_passage
+    with IK8_Count 4
+    with IK8_Link I148_scorpius_sitis
+    with KD_Count 8
+    with name 'carissimi_sitis' 'people//p' 
+    with action_bitmap 0 0 0 0 0 
+    with description BC_231
+    with initial BC_232
+    with list_together BC_233
+    with plural BC_234
+    with article BC_235
+;
+
 Object I139_secret_passage_sitis ""
     class K1_room
-    with short_name BC_230
+    with short_name BC_236
     with map_region I135_village_sicuum_sitis
     with vector 0
     with room_index -1
@@ -11335,32 +11355,32 @@ Object I139_secret_passage_sitis ""
     with IK1_Link I142_jail_basement_sitis
     with KD_Count 1
     with name 'secret' 'passage_sitis' 'rooms//p' 
-    with description BC_231
-    with list_together BC_232
-    with plural BC_233
-    with article BC_234
-;
-
-Object I140_secret_passage ""
-    class K2_thing
-    with short_name BC_235
-    with vector 0
-    has mark_as_thing
-    with IK2_Count 3
-    with IK2_Link nothing
-    with KD_Count 2
-    with name 'secret' 'passage' 'things//p' 
-    with action_bitmap 0 0 0 0 0 
-    with description BC_236
-    with initial BC_237
+    with description BC_237
     with list_together BC_238
     with plural BC_239
     with article BC_240
 ;
 
+Object I140_secret_passage ""
+    class K2_thing
+    with short_name BC_241
+    with vector 0
+    has mark_as_thing
+    with IK2_Count 3
+    with IK2_Link I148_scorpius_sitis
+    with KD_Count 2
+    with name 'secret' 'passage' 'things//p' 
+    with action_bitmap 0 0 0 0 0 
+    with description BC_242
+    with initial BC_243
+    with list_together BC_244
+    with plural BC_245
+    with article BC_246
+;
+
 Object I141_jail_sitis ""
     class K9_region
-    with short_name BC_241
+    with short_name BC_247
     with vector 0
     with regional_found_in [ ;
         if (TestRegionalContainment(location, I141_jail_sitis)) rtrue; rfalse;],
@@ -11369,14 +11389,14 @@ Object I141_jail_sitis ""
     with KD_Count 9
     with name 'jail_sitis' 'regions//p' 
     with action_bitmap 0 0 0 0 0 
-    with list_together BC_242
-    with plural BC_243
-    with article BC_244
+    with list_together BC_248
+    with plural BC_249
+    with article BC_250
 ;
 
 Object I142_jail_basement_sitis ""
     class K1_room
-    with short_name BC_245
+    with short_name BC_251
     with map_region I141_jail_sitis
     with vector 0
     with room_index -1
@@ -11385,15 +11405,15 @@ Object I142_jail_basement_sitis ""
     with IK1_Link I144_holy_palace_sitis
     with KD_Count 1
     with name 'jail' 'basement_sitis' 'rooms//p' 
-    with description BC_246
-    with list_together BC_247
-    with plural BC_248
-    with article BC_249
+    with description BC_252
+    with list_together BC_253
+    with plural BC_254
+    with article BC_255
 ;
 
 Object I143_holy_area_sitis ""
     class K9_region
-    with short_name BC_250
+    with short_name BC_256
     with vector 0
     with regional_found_in [ ;
         if (TestRegionalContainment(location, I143_holy_area_sitis)) rtrue; rfalse;],
@@ -11402,14 +11422,14 @@ Object I143_holy_area_sitis ""
     with KD_Count 9
     with name 'holy' 'area_sitis' 'regions//p' 
     with action_bitmap 0 0 0 0 0 
-    with list_together BC_251
-    with plural BC_252
-    with article BC_253
+    with list_together BC_257
+    with plural BC_258
+    with article BC_259
 ;
 
 Object I144_holy_palace_sitis ""
     class K1_room
-    with short_name BC_254
+    with short_name BC_260
     with map_region I143_holy_area_sitis
     with vector 0
     with room_index -1
@@ -11418,10 +11438,50 @@ Object I144_holy_palace_sitis ""
     with IK1_Link nothing
     with KD_Count 1
     with name 'holy' 'palace_sitis' 'rooms//p' 
-    with description BC_255
-    with list_together BC_256
-    with plural BC_257
-    with article BC_258
+    with description BC_261
+    with list_together BC_262
+    with plural BC_263
+    with article BC_264
+;
+
+Object -> I148_scorpius_sitis ""
+    class K8_person
+    with short_name BC_265
+    has proper
+    with vector 0
+    has mark_as_thing
+    with IK2_Count 7
+    with IK2_Link I149_machitikos_sitis
+    with IK8_Count 5
+    with IK8_Link I149_machitikos_sitis
+    with KD_Count 8
+    with name 'scorpius_sitis' 'people//p' 
+    with action_bitmap 0 0 0 0 0 
+    with description BC_266
+    with initial BC_267
+    with list_together BC_268
+    with plural BC_269
+    with article BC_270
+;
+
+Object -> I149_machitikos_sitis ""
+    class K8_person
+    with short_name BC_271
+    has proper
+    with vector 0
+    has mark_as_thing
+    with IK2_Count 8
+    with IK2_Link nothing
+    with IK8_Count 6
+    with IK8_Link nothing
+    with KD_Count 8
+    with name 'machitikos_sitis' 'people//p' 
+    with action_bitmap 0 0 0 0 0 
+    with description BC_272
+    with initial BC_273
+    with list_together BC_274
+    with plural BC_275
+    with article BC_276
 ;
 
 Constant I71_english_language = 1;
@@ -11476,12 +11536,12 @@ Constant I124_feminine_gender = 3;
 Constant I125_start_of_the_adventure = 2;
 Array Global_Vars -->
   (false) ! 7 darkness witnessed
-  (BC_259) ! 25 command prompt
+  (BC_277) ! 25 command prompt
   (I71_english_language) ! 29 language of play
-  (BC_260) ! 32 story author
-  (BC_261) ! 33 story headline
-  (BC_262) ! 34 story genre
-  (BC_263) ! 35 story description
+  (BC_278) ! 32 story author
+  (BC_279) ! 33 story headline
+  (BC_280) ! 34 story genre
+  (BC_281) ! 35 story description
   (1) ! 36 release number
   (0) ! 37 story creation year
   (0) ! 45 locale paragraph count
@@ -11498,18 +11558,18 @@ Array Global_Vars -->
 
 
 Array T0_final_question_options table  tab_0_0 tab_0_1 tab_0_2 tab_0_3 tab_0_4;
-Array tab_0_0 table $0664 0 (BC_264) (BC_265) (BC_266) (BC_267) (BC_268) ;
+Array tab_0_0 table $0664 0 (BC_282) (BC_283) (BC_284) (BC_285) (BC_286) ;
 Array tab_0_1 table $0465 1 (0) (0) (1) (0) (0) ;
 Array tab_0_2 table $2066 2 (Consult_Grammar_93) (Consult_Grammar_94) (Consult_Grammar_95) (Consult_Grammar_96) (Consult_Grammar_97) ;
 Array tab_0_3 table $0067 3 (IMMEDIATELY_RESTART_VM_R) (IMMEDIATELY_RESTORE_SAVED_R) ( TABLE_NOVALUE) (IMMEDIATELY_QUIT_R) (IMMEDIATELY_UNDO_R) ;
 Array tab_0_4 table $0068 4 ( TABLE_NOVALUE) ( TABLE_NOVALUE) (V27_amusing_a_victorious_pla) ( TABLE_NOVALUE) ( TABLE_NOVALUE) ;
 Array T1_locale_priorities table  tab_1_0 tab_1_1;
-Array tab_1_0 table $0869 NULL ( TABLE_NOVALUE)  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
-Array tab_1_1 table $446a 5 ( TABLE_NOVALUE)  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
+Array tab_1_0 table $0869 NULL ( TABLE_NOVALUE)  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
+Array tab_1_1 table $446a 5 ( TABLE_NOVALUE)  TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE TABLE_NOVALUE;
 Array T2_ordinary_status table  tab_2_0 tab_2_1 tab_2_2;
-Array tab_2_0 table $066b 6 (BC_269) ;
-Array tab_2_1 table $066c 7 (BC_270) ;
-Array tab_2_2 table $066d 8 (BC_271) ;
+Array tab_2_0 table $066b 7 (BC_287) ;
+Array tab_2_1 table $066c 8 (BC_288) ;
+Array tab_2_2 table $066d 9 (BC_289) ;
 Array TB_Blanks -> 
   ! For table T0_final_question_options
   $00  ! Column 0
@@ -11519,7 +11579,7 @@ Array TB_Blanks ->
   $1b  ! Column 4
   
   ! For table T1_locale_priorities
-  $ff  ! Column 1
+  $ff $07  ! Column 1
   
   ! For table T2_ordinary_status
   $00  ! Column 0
@@ -28357,7 +28417,7 @@ Array FWMatrix --> NUM_ROOMS*NUM_ROOMS;
 ! Relations.i6t: Relation Route-Finding
 ! ==== ==== ==== ==== ==== ==== ==== ==== ==== ====
 
-Constant MAX_ROUTE_LENGTH = 35 + 32;
+Constant MAX_ROUTE_LENGTH = 38 + 32;
 
 [ RelationRouteTo relation from to count  handler;
 	if (count) {
@@ -49381,37 +49441,40 @@ Verb 'notify'
 
 
 
-Constant TX_PS_55 = ">";
-Constant TX_PS_50 = "A secret Passage";
+Constant TX_PS_58 = ">";
+Constant TX_PS_51 = "A secret Passage";
 Constant TX_PS_3 = "An Interactive Fiction";
-Constant TX_PS_47 = "Anaidis";
+Constant TX_PS_48 = "Anaidis";
 Constant TX_PS_33 = "As good-looking as ever.";
 Constant TX_PS_2 = "Auf der Suche";
 Constant TX_PS_32 = "Axesto";
-Constant TX_PS_48 = "Carissimi";
+Constant TX_PS_49 = "Carissimi";
 Constant TX_PS_37 = "Desert_Sitis";
-Constant TX_PS_56 = "Fiction";
+Constant TX_PS_59 = "Fiction";
 Constant TX_PS_35 = "Flat Rock_Sitis";
 Constant TX_PS_4 = "Franziska Geilen Kirchner";
-Constant TX_PS_53 = "Holy Area_Sitis";
-Constant TX_PS_51 = "Jail_Sitis";
+Constant TX_PS_54 = "Holy Area_Sitis";
+Constant TX_PS_42 = "Ilithios";
+Constant TX_PS_52 = "Jail_Sitis";
 Constant TX_PS_34 = "Landing Zone_Sitis";
-Constant TX_PS_45 = "Mitéra";
-Constant TX_PS_60 = "QUIT";
-Constant TX_PS_57 = "RESTART";
-Constant TX_PS_58 = "RESTORE a saved game";
-Constant TX_PS_49 = "Secret Passage_Sitis";
-Constant TX_PS_43 = "The Agora of Sicuum";
-Constant TX_PS_44 = "The Domum Praesidium of Sicuum";
-Constant TX_PS_54 = "The Holy Palace";
-Constant TX_PS_52 = "The Jail";
+Constant TX_PS_57 = "Machitikos";
+Constant TX_PS_46 = "Mitéra";
+Constant TX_PS_63 = "QUIT";
+Constant TX_PS_60 = "RESTART";
+Constant TX_PS_61 = "RESTORE a saved game";
+Constant TX_PS_50 = "Secret Passage_Sitis";
+Constant TX_PS_44 = "The Agora of Sicuum";
+Constant TX_PS_45 = "The Domum Praesidium of Sicuum";
+Constant TX_PS_56 = "The Great Scorpius";
+Constant TX_PS_55 = "The Holy Palace";
+Constant TX_PS_53 = "The Jail";
 Constant TX_PS_39 = "The Protection Bridge";
 Constant TX_PS_40 = "The Rampart of Sicuum";
 Constant TX_PS_41 = "The Rock Mine";
-Constant TX_PS_42 = "The Village Sicuum";
+Constant TX_PS_43 = "The Village Sicuum";
 Constant TX_PS_38 = "The Wide Desert";
-Constant TX_PS_61 = "UNDO the last command";
-Constant TX_PS_46 = "Your Shelter";
+Constant TX_PS_64 = "UNDO the last command";
+Constant TX_PS_47 = "Your Shelter";
 Constant TX_PS_36 = "Your arrival point. The Flat Rock";
 Constant TX_PS_9 = "animals";
 Constant TX_PS_14 = "backdrops";
@@ -49430,7 +49493,7 @@ Constant TX_PS_30 = "outside";
 Constant TX_PS_6 = "people";
 Constant TX_PS_13 = "player's holdalls";
 Constant TX_PS_16 = "regions";
-Constant TX_PS_59 = "see some suggestions for AMUSING things to do";
+Constant TX_PS_62 = "see some suggestions for AMUSING things to do";
 Constant TX_PS_22 = "south";
 Constant TX_PS_23 = "southeast";
 Constant TX_PS_24 = "southwest";
@@ -56788,34 +56851,34 @@ Array BC_191 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_192 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_193 --> PACKED_TEXT_STORAGE TX_PS_42;
 Array BC_194 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_195 --> PACKED_TEXT_STORAGE TX_PS_16;
+Array BC_195 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_196 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_197 --> PACKED_TEXT_STORAGE TX_PS_43;
+Array BC_197 --> PACKED_TEXT_STORAGE TX_PS_6;
 Array BC_198 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_199 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_199 --> PACKED_TEXT_STORAGE TX_PS_43;
 Array BC_200 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_201 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_202 --> PACKED_TEXT_STORAGE TX_PS_44;
-Array BC_203 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_201 --> PACKED_TEXT_STORAGE TX_PS_16;
+Array BC_202 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_203 --> PACKED_TEXT_STORAGE TX_PS_44;
 Array BC_204 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_205 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_206 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_207 --> PACKED_TEXT_STORAGE TX_PS_45;
-Array BC_208 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_207 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_208 --> PACKED_TEXT_STORAGE TX_PS_45;
 Array BC_209 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_210 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_211 --> PACKED_TEXT_STORAGE TX_PS_6;
+Array BC_211 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_212 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_213 --> PACKED_TEXT_STORAGE TX_PS_46;
 Array BC_214 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_215 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_216 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_217 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_218 --> PACKED_TEXT_STORAGE TX_PS_47;
-Array BC_219 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_217 --> PACKED_TEXT_STORAGE TX_PS_6;
+Array BC_218 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_219 --> PACKED_TEXT_STORAGE TX_PS_47;
 Array BC_220 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_221 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_222 --> PACKED_TEXT_STORAGE TX_PS_6;
+Array BC_222 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_223 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_224 --> PACKED_TEXT_STORAGE TX_PS_48;
 Array BC_225 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
@@ -56827,44 +56890,62 @@ Array BC_230 --> PACKED_TEXT_STORAGE TX_PS_49;
 Array BC_231 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_232 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_233 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_234 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_235 --> PACKED_TEXT_STORAGE TX_PS_50;
-Array BC_236 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_234 --> PACKED_TEXT_STORAGE TX_PS_6;
+Array BC_235 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_236 --> PACKED_TEXT_STORAGE TX_PS_50;
 Array BC_237 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_238 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_239 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_240 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_241 --> PACKED_TEXT_STORAGE TX_PS_51;
 Array BC_242 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_243 --> PACKED_TEXT_STORAGE TX_PS_16;
+Array BC_243 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_244 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_245 --> PACKED_TEXT_STORAGE TX_PS_52;
+Array BC_245 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_246 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_247 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_247 --> PACKED_TEXT_STORAGE TX_PS_52;
 Array BC_248 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_249 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_250 --> PACKED_TEXT_STORAGE TX_PS_53;
-Array BC_251 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_252 --> PACKED_TEXT_STORAGE TX_PS_16;
+Array BC_249 --> PACKED_TEXT_STORAGE TX_PS_16;
+Array BC_250 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_251 --> PACKED_TEXT_STORAGE TX_PS_53;
+Array BC_252 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_253 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_254 --> PACKED_TEXT_STORAGE TX_PS_54;
+Array BC_254 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_255 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_256 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_256 --> PACKED_TEXT_STORAGE TX_PS_54;
 Array BC_257 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_258 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_259 --> PACKED_TEXT_STORAGE TX_PS_55;
-Array BC_260 --> PACKED_TEXT_STORAGE TX_PS_4;
-Array BC_261 --> PACKED_TEXT_STORAGE TX_PS_3;
-Array BC_262 --> PACKED_TEXT_STORAGE TX_PS_56;
+Array BC_258 --> PACKED_TEXT_STORAGE TX_PS_16;
+Array BC_259 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_260 --> PACKED_TEXT_STORAGE TX_PS_55;
+Array BC_261 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_262 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_263 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_264 --> PACKED_TEXT_STORAGE TX_PS_57;
-Array BC_265 --> PACKED_TEXT_STORAGE TX_PS_58;
-Array BC_266 --> PACKED_TEXT_STORAGE TX_PS_59;
-Array BC_267 --> PACKED_TEXT_STORAGE TX_PS_60;
-Array BC_268 --> PACKED_TEXT_STORAGE TX_PS_61;
-Array BC_269 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_136;
+Array BC_264 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_265 --> PACKED_TEXT_STORAGE TX_PS_56;
+Array BC_266 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_267 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_268 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_269 --> PACKED_TEXT_STORAGE TX_PS_6;
 Array BC_270 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_271 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_137;
+Array BC_271 --> PACKED_TEXT_STORAGE TX_PS_57;
+Array BC_272 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_273 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_274 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_275 --> PACKED_TEXT_STORAGE TX_PS_6;
+Array BC_276 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_277 --> PACKED_TEXT_STORAGE TX_PS_58;
+Array BC_278 --> PACKED_TEXT_STORAGE TX_PS_4;
+Array BC_279 --> PACKED_TEXT_STORAGE TX_PS_3;
+Array BC_280 --> PACKED_TEXT_STORAGE TX_PS_59;
+Array BC_281 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_282 --> PACKED_TEXT_STORAGE TX_PS_60;
+Array BC_283 --> PACKED_TEXT_STORAGE TX_PS_61;
+Array BC_284 --> PACKED_TEXT_STORAGE TX_PS_62;
+Array BC_285 --> PACKED_TEXT_STORAGE TX_PS_63;
+Array BC_286 --> PACKED_TEXT_STORAGE TX_PS_64;
+Array BC_287 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_136;
+Array BC_288 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_289 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_137;
 
 
 

@@ -76,9 +76,10 @@ The Holy Palace_Sitis is north of the Protection Bridge_Sitis.
 [Charaktere]
 Mitéra_Sitis is a person in the Domum Praesidium_Sitis. The printed name of Mitéra_Sitis is "Mitéra". 
 Anaidis_Sitis is a person in the Shelter_Sitis. The printed name of Anaidis_Sitis is "Anaidis". 
-Carissimi_Sitis is a person in the Shelter_Sitis.The printed name of Carissimi_Sitis is "Carissimi". 
-
-
+Carissimi_Sitis is a person in the Shelter_Sitis.The printed name of Carissimi_Sitis is "Carissimi".
+Scorpius_Sitis is a person in the Holy Palace_Sitis. The printed name of Scorpius_Sitis is "The Great Scorpius". 
+Machitikos_Sitis is a person in the Holy Palace_Sitis. The printed name of Machitikos_Sitis is "Machitikos". 
+Ilithios_Sitis is a person in the Rock Mine_Sitis. The printed name of Ilithios_Sitis is "Ilithios". 
 
 
 
