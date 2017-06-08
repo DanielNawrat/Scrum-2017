@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-1">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-49"/>
+  <activeNode nodeId="node-55"/>
   <item nodeId="node-1">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">Auf der Suche&#x000A;An Interactive Fiction by Franziska Geilen Kirchner&#x000A;Release 1 / Serial number 170608 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Flat Rock_Sitis&#x000A; You land on a big flat grey stone. You think, the landing was quite easy but as you leave your spaceship, you realise that two of your three water container broke down. Without minimal one new watertank you can not continue your journey .&#x000A;&#x000A;&gt;</result>
@@ -123,7 +123,71 @@
   </item>
   <item nodeId="node-12">
     <command xml:space="preserve">south</command>
-    <result xml:space="preserve">The Agora&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">The Rampart of Sicuum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-50"/>
+      <child nodeId="node-52"/>
+    </children>
+  </item>
+  <item nodeId="node-50">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">The Rock Mine&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-51"/>
+    </children>
+  </item>
+  <item nodeId="node-51">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You arrive at a stone cave. As you try to enter, small stones fall off the ceiling. Hurry up, you need to go back fast!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-52">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">The Agora of Sicuum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-53"/>
+    </children>
+  </item>
+  <item nodeId="node-53">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">The Domum Praesidium of Sicuum&#x000A;You can see Mit&#x00E9;ra here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-54"/>
+    </children>
+  </item>
+  <item nodeId="node-54">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">The Agora of Sicuum&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-55"/>
+    </children>
+  </item>
+  <item nodeId="node-55">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">The Home&#x000A;You can see Anaidis and Carissimi here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>

@@ -22,6 +22,8 @@ The Flat Rock_Sitis is a room. The printed name of the Flat Rock _Sitis is "Your
 Instead of going south, say "Here seems to be the end of Sitis. You can't go this way any longer."
 Instead of going west, say "You arrive at a stone cave. As you try to enter, small stones fall off the ceiling. Hurry up, you need to go back fast!"]
 
+
+
 [Region 2 - The Desert of Sitis]
 The Desert_Sitis is a region. The Wide Desert of Sitis_Sitis, the Protection Bridge_Sitis, the Rampart of Sicuum_Sitis and the Rock Mine_Sitis are in the Desert_Sitis.
 
@@ -35,35 +37,46 @@ The Protection Bridge_Sitis is north of the Wide Desert of Sitis_Sitis.
 The Rampart of Sicuum_Sitis is a room. The printed name of the Rampart of Sicuum_Sitis is "The Rampart of Sicuum". 
 The Rampart of Sicuum_Sitis is south of the Wide Desert of Sitis_Sitis.
 
-The Rock Mine_Sitis is a room. The printed name of the Rock Mine_Sitis is "The Rock Mine". The Rock Mine_Sitis is east of the Wide Desert of Sitis_Sitis.
+The Rock Mine_Sitis is a room. The printed name of the Rock Mine_Sitis is "The Rock Mine". The Rock Mine_Sitis is east of the Wide Desert of Sitis_Sitis. 
+
 
 
 [Region 3 - The Village Sicuum]
 The Village Sicuum_Sitis is a region. The printed name of the Village Sicuum_Sitis is "The Village Sicuum". 
-The Agora_Sitis, the Domum Praesidium_Sitis, the House of Anaidis_Sitis and the Secret Passage_Sitis are in the Village Sicuum_Sitis.
+The Agora_Sitis, the Domum Praesidium_Sitis, the Shelter_Sitis and the Secret Passage_Sitis are in the Village Sicuum_Sitis.
 
 [Räume]
 The Agora_Sitis is a room. The printed name of the Agora_Sitis is "The Agora of Sicuum". The Agora_Sitis is south of the Rampart of Sicuum_Sitis.
+
 The Domum Praesidium_Sitis is a room. The printed name of the Domum Praesidium_Sitis is "The Domum Praesidium of Sicuum". The Domum Praesidium_Sitis is west of The Agora_Sitis. 
-The House of Anaidis_Sitis is a room. The printed name of the House of Anaidis_Sitis is "The House of Anaidis". The House of Anaidis_Sitis is east of the Agora_Sitis.
+
+The Shelter_Sitis is a room. The printed name of the Shelter_Sitis is "Your Shelter". The Shelter_Sitis is east of the Agora_Sitis.
+
 The Secret Passage_Sitis is a room. The printed name of the Secret Passage is "A secret Passage". 
-The Secret Passage_Sitis is north of the House of Anaidis_Sitis.
+The Secret Passage_Sitis is north of the Shelter_Sitis.
+
 
 [Region 4 - The Jail]
 The Jail_Sitis is a region. The Jail Basement_Sitis is in the Jail_Sitis.
 
 [Räume]
-The Jail Basement_Sitis is a room. The printed Name of the Jail Basement_Sitis is "The Jail". 
+The Jail Basement_Sitis is a room. The printed name of the Jail Basement_Sitis is "The Jail". 
 The Jail Basement_Sitis is east of the Protection Bridge_Sitis.
 
+
+
 [Region 5 - The Holy Area]
-The Holy Area_Sitis is a region. The Palace of Holy Scorpius_Sitis is in the Holy Area_Sitis.
+The Holy Area_Sitis is a region. The Holy Palace_Sitis is in the Holy Area_Sitis.
 
 [Räume]
-The Palace of Holy Scorpius_Sitis is a room. The printed name of the Palace of Holy Scorpius is "The Palace of Holy Scropius". 
-The Palace of Holy Scorpius_Sitis is north of the Protection Bridge_Sitis.
+The Holy Palace_Sitis is a room. The printed name of Holy Palace_Sitis is "The Holy Palace". 
+The Holy Palace_Sitis is north of the Protection Bridge_Sitis.
 
 
+[Charaktere]
+Mitéra_Sitis is a person in the Domum Praesidium_Sitis. The printed name of Mitéra_Sitis is "Mitéra". 
+Anaidis_Sitis is a person in the Shelter_Sitis. The printed name of Anaidis_Sitis is "Anaidis". 
+Carissimi_Sitis is a person in the Shelter_Sitis.The printed name of Carissimi_Sitis is "Carissimi". 
 
 
 
