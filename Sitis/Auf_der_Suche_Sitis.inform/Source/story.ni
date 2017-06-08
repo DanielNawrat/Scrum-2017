@@ -10,54 +10,58 @@ The Start of the Adventure is a scene. The Start of the Adventure begins when pl
 Axesto_Sitis is a person. The Player is Axesto_Sitis. The printed name of Axesto_Sitis is "Axesto". 
 [End of Initialisation]
 
+[Regionen + Räume]
 
-The landing zone_Sitis is a region. The flat rock_Sitis and the exit of the spaceship_Sitis are in the landing zone_Sitis. 
-The the exit of the spaceship_Sitis is a room.
-The flat rock_Sitis is a room.
+[Region 1 - Landing Zone]
+The Landing Zone_Sitis is a region. The Flat Rock_Sitis is in the Landing Zone_Sitis.
 
-The desert_Sitis is a region. The eastern desert_Sitis and the west desert_Sitis are in the desert_Sitis.
-The eastern desert_Sitis is a room.
-The west desert_Sitis is a room.
-The west desert_Sitis is west of the exit of the spaceship_Sitis.
+[1. Raum]
+The Flat Rock_Sitis is a room. The printed name of the Flat Rock _Sitis is "Your arrival point. The Flat Rock". "[italic type] You land on a big flat grey stone. You think, the landing was quite easy but as you leave your spaceship, you realise that two of your three water container broke down. Without minimal one new watertank you can not continue your journey [roman type]."
 
-
-[[Räume]
-
-[Raum 1 - Landing Zone]
-The Landing Zone_Sitis is a region. The printed name of the Landing Zone_Sitis is “Landing Zone”. "[italic type] You land on a flat rock. Description missed! But somehow you have the impression someone's living here. So - why you're still here [roman type]?"
-
-Instead of going north, say "You follow the mountain's way into a canyon. All you can see is a big field of cactuses. You can't pass them."
+[Instead of going north, say "You follow the mountain's way into a canyon. All you can see is a big field of cactuses. You can't pass them."
 Instead of going south, say "Here seems to be the end of Sitis. You can't go this way any longer."
-Instead of going west, say "You arrive at a stone cave. As you try to enter, small stones fall off the ceiling. Hurry up, you need to go back fast!"
+Instead of going west, say "You arrive at a stone cave. As you try to enter, small stones fall off the ceiling. Hurry up, you need to go back fast!"]
+
+[Region 2 - The Desert of Sitis]
+The Desert_Sitis is a region. The Wide Desert of Sitis_Sitis, the Protection Bridge_Sitis, the Rampart of Sicuum_Sitis and the Rock Mine_Sitis are in the Desert_Sitis.
+
+[Räume]
+The Wide Desert of Sitis_Sitis is a room. The printed name of the Wide Desert of Sitis_Sitis is "The Wide Desert". "[italic type] The Desert of Sitis gives you the chance to gain orientation. When you look north you see a big brown golden palace. In the east you recognize an old dark House. Description missed! When you look south you recognize a lot of small white houses. It seems like people are living there [roman type]."
+The Wide Desert of Sitis_Sitis is east of the Flat Rock_Sitis. 
+
+The Protection Bridge_Sitis is a room. The printed name of the Protection Bridge_Sitis is "The Protection Bridge". 
+The Protection Bridge_Sitis is north of the Wide Desert of Sitis_Sitis.
+
+The Rampart of Sicuum_Sitis is a room. The printed name of the Rampart of Sicuum_Sitis is "The Rampart of Sicuum". 
+The Rampart of Sicuum_Sitis is south of the Wide Desert of Sitis_Sitis.
+
+The Rock Mine_Sitis is a room. The printed name of the Rock Mine_Sitis is "The Rock Mine". The Rock Mine_Sitis is east of the Wide Desert of Sitis_Sitis.
 
 
-[Raum 2 - The Desert of Sitis]
-The Desert_Sitis is a region. The printed name of the Desert_Sitis is "The Desert of Sitis". "[italic type] The Desert of Sitis gives you the chance to gain orientation. When you look north you see a big brown golden palace. When you look east it seems like there's something dangerous. Description missed! When you look south you recognize a lot of small white houses. It seems like people are living there [roman type]."
-The Desert_Sitis is east of the Landing Zone_Sitis.
+[Region 3 - The Village Sicuum]
+The Village Sicuum_Sitis is a region. The printed name of the Village Sicuum_Sitis is "The Village Sicuum". 
+The Agora_Sitis, the Domum Praesidium_Sitis, the House of Anaidis_Sitis and the Secret Passage_Sitis are in the Village Sicuum_Sitis.
 
-Instead of going north, say "This is a dangerous area. It's the Palace of Holy Scorpius. Who he is? It's your mission to find out."
-Instead of going east, say "You really don't want to be here. If your mission goes wrong you will end up here for sure."
-Instead of going west, say "Don't forget about the water you left. You really need to find some otherwise you won't surive your journey."
+[Räume]
+The Agora_Sitis is a room. The printed name of the Agora_Sitis is "The Agora of Sicuum". The Agora_Sitis is south of the Rampart of Sicuum_Sitis.
+The Domum Praesidium_Sitis is a room. The printed name of the Domum Praesidium_Sitis is "The Domum Praesidium of Sicuum". The Domum Praesidium_Sitis is west of The Agora_Sitis. 
+The House of Anaidis_Sitis is a room. The printed name of the House of Anaidis_Sitis is "The House of Anaidis". The House of Anaidis_Sitis is east of the Agora_Sitis.
+The Secret Passage_Sitis is a room. The printed name of the Secret Passage is "A secret Passage". 
+The Secret Passage_Sitis is north of the House of Anaidis_Sitis.
 
-
-[Raum 3 - The Village Sicuum]
-The Village Sicuum_Sitis is a region. The printed name of the Village Sicuum_Sitis is "The Village Sicuum". "[italic type] Sicuum is a small village. The people that are living here, called Sitisianer, seems to be very friendly. But the first time you meet them there kind of warily [roman type]."
-The Domum Praesidium_Sitis, the Rock Mine_Sitis, the Agora_Sitis and the House of Anaidis_Sitis are in the Village Sicuum_Sitis.
-The Village Sicuum_Sitis is south of the Desert_Sitis.
-
-The Domum Praesidium_Sitis is a room. The printed name of the Domum Praesidium_Sitis is "The Domum Praesidium". 
-The Rock Mine_Sitis is a room. The printed name of the Rock Mine_Sitis is "The Rock Mine". 
-The Agora_Sitis is a room. The printed name of the Agora_Sitis is "The Agora". 
-The House of Anaidis_Sitis is a room. The printed name of the House of Anaidis_Sitis is "The House of Anaidis".
-
-
-
-
+[Region 4 - The Jail]
 The Jail_Sitis is a region. The Jail Basement_Sitis is in the Jail_Sitis.
-The Jail_Sitis is east of the Desert_Sitis.
 
-The Palace of Holy Scorpius_Sitis is a region. 
-The Palace of Holy Scorpius_Sitis is north of the Desert_Sitis.]
+[Räume]
+The Jail Basement_Sitis is a room. The printed Name of the Jail Basement_Sitis is "The Jail". 
+The Jail Basement_Sitis is east of the Protection Bridge_Sitis.
+
+[Region 5 - The Holy Area]
+The Holy Area_Sitis is a region. The Palace of Holy Scorpius_Sitis is in the Holy Area_Sitis.
+
+[Räume]
+The Palace of Holy Scorpius_Sitis is a room. The printed name of the Palace of Holy Scorpius is "The Palace of Holy Scropius". 
+The Palace of Holy Scorpius_Sitis is north of the Protection Bridge_Sitis.
 
 
 
