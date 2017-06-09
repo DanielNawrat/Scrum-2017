@@ -14,21 +14,25 @@ The Crash Site_Kaldríss is a region. The Spaceship Bridge_Kaldríss, the Spaces
 	[Different Items available depending on story branch]
 	[Add a limited carrying capacity to force different story branches?]
 
+[Plasma Cannon only usable if Energy Orb is used to power it?]
 The Plasma Cannon is in the Spaceship Storage_Kaldríss.
 Before taking the Plasma Cannon:
 	say "Even though this is a highly experimental weapon it might prove useful at some point."
 The Food Ration is in the Spaceship Storage_Kaldríss.  The description of the Food Ration is "Smells kinda weird. It's super nutritious though!"
 The Götti is in the Spaceship Storage_Kaldríss. The description of the Götti is "Who would've thought you and your fellow Götti would end up here? On the coldest planet this solar system has to offer. He must be freezing."
 The Smoke Nodule is in the Spaceship Storage_Kaldríss. The description of the Smoke Nodule is "You picked one of these up during your escape from Gaisetto. That was one hell of an escape!"
+
+[Hide Energy Orb]
 The Energy Orb is in the Spaceship Bridge_Kaldríss. The description of the Energy Orb is "If used correctly it creates a warm energy that withstands even the coldest temperatures. It also emits a specific light that only certain creatures are able to see. You are not one of them."
-	[Hide Energy Orb]
-	[Plasma Cannon only usable if Energy Orb is used to power it?]
-An Emergency Fire Kit is in the Spaceship Storage. 
-	[Hide Emergency Fire Kit in a fixed object i.e. Locker]
+	
+
+In the Spaceship Storage_Kaldríss is a Locker. It is scenery. It is closed and openable. In the Locker is a brushed metal box. The description of brushed metal box is "Now I remember! I used to store things in here that could come in very hand in emergencies! Let's see if I can find something useful in here.". It is closed and openable. 
+In the brushed metal box is a Emergency Fire Kit. The Emergency Fire Kit can be taken. 
+
 
 [Rooms]
 The Spaceship Bridge_Kaldríss is a room. "Insert description here." The printed name of the Spaceship Bridge_Kaldríss is "Spaceship Bridge".
-The Spaceship Storage_Kaldríss is a room. "Insert description here." The printed name of the  Spaceship Storage_Kaldríss is "Spaceship Storage".
+The Spaceship Storage_Kaldríss is a room. "You take a quick look inside the storage room but there doesn't seem to be anything  particularly interesting in there. All you can see are some random souvenirs from other planets and your locker which you haven't opened in ages." The printed name of the  Spaceship Storage_Kaldríss is "Spaceship Storage".
 The Spaceship Exit_Kaldríss is a room. "Insert description here." The printed name of the  Spaceship Exit_Kaldríss is "Spaceship Exit".
 The Crash Zone_Kaldríss is a room. "Insert description here." The printed name of the Crash Zone_Kaldríss is "Crash Zone".
 The Hunting Grounds_Kaldríss is a room. "Insert description here." The printed name of the Hunting Grounds_Kaldríss is "Hunting Grounds".
@@ -40,13 +44,27 @@ The  Crash Zone_Kaldríss is east of the Spaceship Exit_Kaldríss.
 The Hunting Grounds_Kaldríss is north of the Crash Zone_Kaldríss.
 
 [Movement Restrictions]
+	
 	[Global Error Message]
 Instead of going nowhere, say "Nothing to see here."
+	
 	[Energy Orb or Emergency Fire Kit required to leave Spaceship]
 Before going to the Crash Zone_Kaldríss:
-	unless the player carries the Energy Orb or the player carries Emergency Fire Kit:
+	unless the player carries the Emergency Fire Kit or the player carries the Energy Orb:
 		move the player to the Spaceship Exit_Kaldríss, without printing a room description;
 		say "You can't leave the spaceship just yet. You need to find something to keep you warm before you venture off!";
+		stop the action.
+
+Before going to the Crash Zone_Kaldríss:
+	if the player has the Emergency Fire Kit:
+		move the player to the Spaceship Exit_Kaldríss;
+		say "With the help of this Emergency Fire Kit I might be able to start a fire which should keep me warm for a while. Let's just hope the smoke doesn't attract any unwelcome visitors.";
+		stop the action.
+
+Before going to the Crash Zone_Kaldríss:
+	if the player has the Energy Orb:
+		move the player to the Spaceship Exit_Kaldríss;
+		say "I might be able to activate the energy orb so that it starts to emit its energy. The side effects are that I won't freeze to death. Yay! I could also be able to use this orb's energy to power all kinds of devices including weapons.";
 		stop the action.
 
 [NPCs]
@@ -61,7 +79,7 @@ Yetíss Caves System is a region.  Main Cave_Kaldríss, Yundar's Cave, Yarwol's 
 The Main Cave_Kaldríss is a room. "Insert description here." The printed name of the Main Cave_Kaldríss is "Main Cave".
 Yundar's Cave is a room. "Insert description here."
 Yarwol's Cave is a room. "Insert description here."
-Secret Cave_Kaldríss is a room. "Insert description here." The printed name of the Secret Cave_Kaldríss is "Secret Cave".
+Secret Cave_Kaldríss is a room. "Insert description here." The printed name of the Secret Cave_Kaldríss is "Secret Cave". [Hide door to the Secret Cave?]
 
 
 [Directions]
