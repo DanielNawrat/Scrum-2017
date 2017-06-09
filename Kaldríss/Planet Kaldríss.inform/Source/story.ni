@@ -10,6 +10,22 @@ When play begins:
 
 The Crash Site_Kaldríss is a region. The Spaceship Bridge_Kaldríss, the Spaceship Storage_Kaldríss, the Spaceship Exit_Kaldríss, the Hunting Grounds_Kaldríss and the Crash Zone_Kaldríss are in Crash Site_Kaldríss. 
 
+[Items]
+	[Different Items available depending on story branch]
+	[Add a limited carrying capacity to force different story branches?]
+
+The Plasma Cannon is in the Spaceship Storage_Kaldríss.
+Before taking the Plasma Cannon:
+	say "Even though this is a highly experimental weapon it might prove useful at some point."
+The Food Ration is in the Spaceship Storage_Kaldríss.  The description of the Food Ration is "Smells kinda weird. It's super nutritious though!"
+The Götti is in the Spaceship Storage_Kaldríss. The description of the Götti is "Who would've thought you and your fellow Götti would end up here? On the coldest planet this solar system has to offer. He must be freezing."
+The Smoke Nodule is in the Spaceship Storage_Kaldríss. The description of the Smoke Nodule is "You picked one of these up during your escape from Gaisetto. That was one hell of an escape!"
+The Energy Orb is in the Spaceship Bridge_Kaldríss. The description of the Energy Orb is "If used correctly it creates a warm energy that withstands even the coldest temperatures. It also emits a specific light that only certain creatures are able to see. You are not one of them."
+	[Hide Energy Orb]
+	[Plasma Cannon only usable if Energy Orb is used to power it?]
+An Emergency Fire Kit is in the Spaceship Storage. 
+	[Hide Emergency Fire Kit in a fixed object i.e. Locker]
+
 [Rooms]
 The Spaceship Bridge_Kaldríss is a room. "Insert description here." The printed name of the Spaceship Bridge_Kaldríss is "Spaceship Bridge".
 The Spaceship Storage_Kaldríss is a room. "Insert description here." The printed name of the  Spaceship Storage_Kaldríss is "Spaceship Storage".
@@ -32,22 +48,9 @@ Before going to the Crash Zone_Kaldríss:
 		move the player to the Spaceship Exit_Kaldríss, without printing a room description;
 		say "You can't leave the spaceship just yet. You need to find something to keep you warm before you venture off!";
 		stop the action.
-[Items]
-	[Different Items available depending on story branch]
-	[Add a limited carrying capacity to force different story branches?]
 
-The Plasma Cannon is in the Spaceship Storage_Kaldríss.
-Before taking the Plasma Cannon:
-	say "Even though this is a highly experimental weapon it might prove useful at some point."
-The Food Ration is in the Spaceship Storage_Kaldríss.  The description of the Food Ration is "Smells kinda weird. It's super nutritious though!"
-The Götti is in the Spaceship Storage_Kaldríss. The description of the Götti is "Who would've thought you and your fellow Götti would end up here? On the coldest planet this solar system has to offer. He must be freezing."
-The Smoke Nodule is in the Spaceship Storage_Kaldríss. The description of the Smoke Nodule is "You picked one of these up during your escape from Gaisetto. That was one hell of an escape!"
-The Energy Orb is in the Spaceship Bridge_Kaldríss. The description of the Energy Orb is "If used correctly it creates a warm energy that withstands even the coldest temperatures. It also emits a specific light that only certain creatures are able to see. You are not one of them."
-	[Hide Energy Orb]
-	[Plasma Cannon only usable if Energy Orb is used to power it?]
-An Emergency Fire Kit is in the Spaceship Storage. 
-	[Hide Emergency Fire Kit in a fixed object i.e. Locker]
-
+[NPCs]
+Sköllháti is a neuter animal in the Hunting Grounds_Kaldríss. "Insert description here."
 
 		
 [Region - Yetíss]
@@ -74,6 +77,9 @@ Before going to the Secret Cave_Kaldríss:
 		move the player to the Main Cave_Kaldríss, without printing a room description;
 		say "This door doesn't seem to lead anywhere";
 		stop the action.
+[NPCs]
+Yundar is a female person in Yundar's Cave. "Insert description here."
+Yarwol is a person in Yarwol's Cave.  "Insert description here."
 		
 [Items]
 Yarwol's Keystone is in Yarwol's Cave.
@@ -92,6 +98,11 @@ Jötunheimr Main Gate is east of Hunting Lodge.
 Hunting Lodge is north of Throne Room_Kaldríss.
 Jötunheimr Main Gate is above the Hunting Grounds_Kaldríss.
 
+[NPCs]
+Rymr is a person in the Hunting Lodge. "Insert description here."
+Loptr is a person in the Jötunheimr Main Gate. "Insert description here."
+Wodan is a person in  the Throne Room_Kaldríss. "Insert description here."
+
 
 
 [Region -  Blakkríss Temple]
@@ -109,6 +120,9 @@ The Blakkríss Temple Entrance is above the Secret Cave_Kaldríss.
 The Blakkríss Temple Entrance is east of the Great Hall_Kaldríss.
 The Great Hall_Kaldríss is east of the Spectral Bridge.
 The Spectral Bridge is east of the Bifröst Portal Chamber.
+
+[NPCs]
+[Gatekeeper is a man in the Blackríss Temple Entrance. "It's dangerous to go alone!"]
 
 [INSPO]
 
