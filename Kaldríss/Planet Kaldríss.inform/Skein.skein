@@ -4,7 +4,7 @@
   <activeNode nodeId="node-1"/>
   <item nodeId="node-1">
     <command xml:space="preserve">- start -</command>
-    <result xml:space="preserve">You got caught in a meteor shower and while trying your best to manouver your spaceship through it  your engine still took a hit. You then had to crash-land on Kaldr&#x00ED;ss - one of the most cold planets in this solar system.  Since only a few explorers made their to this planet there's not a whole lot of information available about this icy place. You are pretty much on your own now. The spaceship also won't take off before it hasn't been properly repaired. But first things first. Without any kind of heat you won't survive this bleakness for long.&#x000A;&#x000A;Planet Kaldr&#x00ED;ss&#x000A;An Interactive Fiction by Daniel&#x000A;Release 1 / Serial number 170610 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Spaceship Bridge&#x000A;The place where all the magic happens. Well, it used to be at least - during the impact most of the important equpiment including the communication systems must have been fried and doesn't seem to work anymore.  There's only a single illuminated button that is flickering on the command panel. What could this mean? Might be worth checking out.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">You got caught in a meteor shower and while trying your best to manouver your spaceship through it  your engine still took a hit. You then had to crash-land on Kaldr&#x00ED;ss - one of the most cold planets in this solar system.  Since only a few explorers made their to this planet there's not a whole lot of information available about this icy place. You are pretty much on your own now. The spaceship also won't take off before it hasn't been properly repaired. But first things first. Without any kind of heat you won't survive this bleakness for long.&#x000A;&#x000A;Planet Kaldr&#x00ED;ss&#x000A;An Interactive Fiction by Daniel&#x000A;Release 1 / Serial number 170611 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Spaceship Bridge&#x000A;The place where all the magic happens. Well, it used to be at least - during the impact most of the important equpiment including the communication systems must have been fried and doesn't seem to work anymore.  There's only a single illuminated button that is flickering on the command panel. What could this mean? Might be worth checking out.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -12,9 +12,6 @@
     <children>
       <child nodeId="node-2"/>
       <child nodeId="node-6"/>
-      <child nodeId="node-84"/>
-      <child nodeId="node-95"/>
-      <child nodeId="node-97"/>
     </children>
   </item>
   <item nodeId="node-2">
@@ -60,7 +57,7 @@
   </item>
   <item nodeId="node-6">
     <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Spaceship Storage&#x000A;You take a quick look inside the storage room but there doesn't seem to be anything  particularly interesting in there. All you can see are some random souvenirs from other planets and your locker which you haven't opened in ages.&#x000A;&#x000A;You can see a Plasma Cannon, a Food Ration, a G&#x00F6;tti and a Smoke Nodule here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Spaceship Storage&#x000A;Taking a quick look inside the storage room doesn't seem to reveal anything particularly interesting. There are only some random souvenirs from your previous intergalactic travels and your locker which you haven't opened in ages.&#x000A;&#x000A;You can see a plasma cannon, a food ration, a G&#x00F6;tti and a smoke nodule here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -73,6 +70,8 @@
       <child nodeId="node-55"/>
       <child nodeId="node-67"/>
       <child nodeId="node-70"/>
+      <child nodeId="node-115"/>
+      <child nodeId="node-197"/>
     </children>
   </item>
   <item nodeId="node-7">
@@ -895,190 +894,191 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-84">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">Nothing to see here.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-115">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">plasma cannon: Even though this is a highly experimental weapon it might prove useful at some point.&#x000A;&#x000A;Taken.&#x000A;food ration: Bringing food with you is never a bad idea.&#x000A;&#x000A;Taken.&#x000A;G&#x00F6;tti: I'm really impressed by how adaptive this creature is. The cold doesn't seem to bother it at all and it even seems like it want's to come with me.&#x000A;&#x000A;Taken.&#x000A;smoke nodule: I totally forgot that I took one of these with me during my escape from the Gaisetto jungle.&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-85"/>
+      <child nodeId="node-116"/>
+      <child nodeId="node-144"/>
     </children>
   </item>
-  <item nodeId="node-85">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">Nothing to see here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-86"/>
-    </children>
-  </item>
-  <item nodeId="node-86">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Spaceship Storage&#x000A;Insert description here.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-116">
+    <command xml:space="preserve">put food ration in matter capacitor</command>
+    <result xml:space="preserve">You put the Food Ration into the matter capacitor.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-87"/>
+      <child nodeId="node-117"/>
     </children>
   </item>
-  <item nodeId="node-87">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Spaceship Exit&#x000A;Insert description here.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-117">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a Smoke Nodule&#x000A;  a G&#x00F6;tti&#x000A;  a Plasma Cannon&#x000A;  a wristwatch (being worn)&#x000A;  a matter capacitor&#x000A;    a Food Ration&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-88"/>
+      <child nodeId="node-118"/>
     </children>
   </item>
-  <item nodeId="node-88">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-118">
+    <command xml:space="preserve">put all in matter capacitor</command>
+    <result xml:space="preserve">Smoke Nodule: Done.&#x000A;G&#x00F6;tti: Done.&#x000A;Plasma Cannon: Done.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-89"/>
+      <child nodeId="node-119"/>
     </children>
   </item>
-  <item nodeId="node-89">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-119">
+    <command xml:space="preserve">drop all from matter capacitor</command>
+    <result xml:space="preserve">You can't use multiple objects with that verb.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-90"/>
+      <child nodeId="node-120"/>
     </children>
   </item>
-  <item nodeId="node-90">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-120">
+    <command xml:space="preserve">drop all</command>
+    <result xml:space="preserve">matter capacitor: Dropped.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-91"/>
+      <child nodeId="node-121"/>
     </children>
   </item>
-  <item nodeId="node-91">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-121">
+    <command xml:space="preserve">take matter capacitor</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-92"/>
-    </children>
   </item>
-  <item nodeId="node-92">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can't leave the spaceship just yet. You need to find something to keep you warm before you venture off!&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-93"/>
-    </children>
-  </item>
-  <item nodeId="node-93">
+  <item nodeId="node-144">
     <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You follow the mountain's way into a canyon. All you can see is a big field of cactuses. You can't pass them.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Spaceship Bridge&#x000A;The place where all the magic happens. Well, it used to be at least - during the impact most of the important equpiment including the communication systems must have been fried and doesn't seem to work anymore.  There's only a single illuminated button that is flickering on the command panel. What could this mean? Might be worth checking out.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-94"/>
+      <child nodeId="node-145"/>
     </children>
   </item>
-  <item nodeId="node-94">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You follow the mountain's way into a canyon. All you can see is a big field of cactuses. You can't pass them.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-145">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-146"/>
+    </children>
   </item>
-  <item nodeId="node-95">
-    <command xml:space="preserve">travel to the Main Cave</command>
+  <item nodeId="node-146">
+    <command xml:space="preserve">command panel</command>
+    <result xml:space="preserve">You see nothing special about the command panel.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-147"/>
+    </children>
+  </item>
+  <item nodeId="node-147">
+    <command xml:space="preserve">search command panel</command>
+    <result xml:space="preserve">You can't see inside, since the command panel is closed.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-148"/>
+    </children>
+  </item>
+  <item nodeId="node-148">
+    <command xml:space="preserve">open command panel</command>
+    <result xml:space="preserve">You open the command panel, revealing a fried communicator, flickering buttons and a secret storage compartment.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-149"/>
+    </children>
+  </item>
+  <item nodeId="node-149">
+    <command xml:space="preserve">open secret storage compartment</command>
+    <result xml:space="preserve">You open the secret storage compartment, revealing an energy orb.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-150"/>
+    </children>
+  </item>
+  <item nodeId="node-150">
+    <command xml:space="preserve">take energy orb</command>
+    <result xml:space="preserve">This orb holds a huge amount of energy which could also be used to power all kinds of devices and possibly even weapons.&#x000A;&#x000A;You're carrying too many things already.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-151"/>
+    </children>
+  </item>
+  <item nodeId="node-151">
+    <command xml:space="preserve">use food ration</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-96"/>
+      <child nodeId="node-152"/>
     </children>
   </item>
-  <item nodeId="node-96">
-    <command xml:space="preserve">travel to</command>
+  <item nodeId="node-152">
+    <command xml:space="preserve">use energy orb</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-97">
-    <command xml:space="preserve">look around</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-197">
+    <command xml:space="preserve">take plasma cannon</command>
+    <result xml:space="preserve">Even though this is a highly experimental weapon it might prove useful at some point.&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-98"/>
+      <child nodeId="node-198"/>
     </children>
   </item>
-  <item nodeId="node-98">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Spaceship Storage&#x000A;Insert description here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-99"/>
-    </children>
-  </item>
-  <item nodeId="node-99">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Spaceship Exit&#x000A;Insert description here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-100"/>
-    </children>
-  </item>
-  <item nodeId="node-100">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-101"/>
-    </children>
-  </item>
-  <item nodeId="node-101">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can't leave the spaceship just yet. You need to find something to keep you warm before you venture off!&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-198">
+    <command xml:space="preserve">take food ration</command>
+    <result xml:space="preserve">Bringing food with you is never a bad idea.&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
