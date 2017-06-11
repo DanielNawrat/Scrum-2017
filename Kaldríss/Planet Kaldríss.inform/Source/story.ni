@@ -11,12 +11,15 @@ When play begins:
 The carrying capacity of the player is 3. The backpack is the player's holdall. The player is wearing the backpack. The carrying capacity of the backpack is 3.
 
 [Suit Capacitor]
+
+[prevent other items from being put into suit capacitor]
+
 The player wears a suit capacitor. The description of the suit capacitor is "This capacitor only holds certain types of energy sources which usually maintain the suit's functionality such as protecting the wearer from extreme temperatures. Inserting other energy sources might increase those functions even further or result in a horrible death." The suit capacitor is a container. The carrying capacity of the suit capacitor is 1. 
 
 [Global Error Message]
 
-Instead of taking some scenery: 
-	say "You don't seem to be strong enough."
+Instead of taking some scenery, say "You don't seem to be strong enough."
+Instead of going nowhere, say "You don't want to go there."
 
 [Region - Crash Site]
 
@@ -66,9 +69,6 @@ The  Crash Zone_Kaldríss is east of the Spaceship Exit_Kaldríss.
 The Hunting Grounds_Kaldríss is north of the Crash Zone_Kaldríss.
 
 [Movement Restrictions]
-	
-[Global Error Message]
-Instead of going nowhere, say "You don't want to go there."
 	
 [Energy Orb or Emergency Fire Kit required to leave Spaceship]
 Before going to the Crash Zone_Kaldríss:
