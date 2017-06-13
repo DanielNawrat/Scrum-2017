@@ -18,11 +18,11 @@ The Landing Zone_Sitis is a region. The Flat Rock_Sitis is in the Landing Zone_S
 [1. Raum]
 The Flat Rock_Sitis is a room. The printed name of the Flat Rock _Sitis is "Your arrival point. The Flat Rock". "[italic type] You land on a big flat grey stone. You think, the landing was quite easy but as you leave your spaceship, you realise that two of your three water container broke down. Without minimal one new watertank you can not continue your journey [roman type]."
 
-[Instead of going north, say "You follow the mountain's way into a canyon. All you can see is a big field of cactuses. You can't pass them."
+Instead of going north, say "You follow the mountain's way into a canyon. All you can see is a big field of cactuses. You can't pass them."
 Instead of going south, say "Here seems to be the end of Sitis. You can't go this way any longer."
-Instead of going west, say "You arrive at a stone cave. As you try to enter, small stones fall off the ceiling. Hurry up, you need to go back fast!"]
+Instead of going west, say "You arrive at a stone cave. As you try to enter, small stones fall off the ceiling. Hurry up, you need to go back fast!"
 
-
+[instead of going nowhere from xy, say ]
 
 [Region 2 - The Desert of Sitis]
 The Desert_Sitis is a region. The Wide Desert of Sitis_Sitis, the Protection Bridge_Sitis, the Rampart of Sicuum_Sitis and the Rock Mine_Sitis are in the Desert_Sitis.
@@ -80,6 +80,8 @@ Carissimi_Sitis is a person in the Shelter_Sitis.The printed name of Carissimi_S
 Scorpius_Sitis is a person in the Holy Palace_Sitis. The printed name of Scorpius_Sitis is "The Great Scorpius". 
 Machitikos_Sitis is a person in the Holy Palace_Sitis. The printed name of Machitikos_Sitis is "Machitikos". 
 Ilithios_Sitis is a person in the Rock Mine_Sitis. The printed name of Ilithios_Sitis is "Ilithios". 
+
+[Personen bewegen]
 
 
 
