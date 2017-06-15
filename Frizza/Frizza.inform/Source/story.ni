@@ -176,11 +176,14 @@ Include Location Images by Emily Short.
 
 BlooSympathy is a truth state that varies. BlooSympathy is true.
 
+[---]
+
 After asking Dunia about anything for the first time:
 	say "[italic type] You are painfully near to trespass holy ground, stranger. I would advise against it. Who are you, anyway? You don't look like a Techie."
 	
 After answering Dunia that "Axesto" for the first time, say "[italic type]What a strange name. It doesn't matter anyway - there's only one thing I need to know: are you on the side of the Techies or of the Duju?"
 
+[Duju]
 After answering Dunia that "Duju" for the first time:
 	if Dunia is in the Ascent_Frizza and BlooSympathy is true:
 		say "[italic type]- Well then, that's not a bad way to start. Thinking about it - an outsider might be what we need. I'll introduce you to someone, and that is not an invitation.[line break][line break][roman type] With seemingly little effort she climbs down the cliffs to your level, before insistently inviting you to come with her.[line break] Both of you walk through the scraggy landscape, her leading the way with distinct commands. Slowly you approach an archlike structure, close to one branch of the Flux. As you get nearer you perceive a couple of bulky shapes, guarding the entrance to the structure. Some hundred metes in front of the entrance your companion turns to you. [line break][line break][italic type]- Try not to look too provoking.[line break][line break][roman type]You know why while passing the guards: each and every one of them gazes at you. In consideration of the thick armour plates, the rather oversized guns and their radiating blue glow you refrain from making any quick motions.";
@@ -188,28 +191,51 @@ After answering Dunia that "Duju" for the first time:
 		now Dunia is in the Upper Gate_Frizza;
 		now Du'un is in the Upper Gate_Frizza;
 		now the printed name of Dunia is "Dunia";
-		say "Inside you find yourself in the midst of a small-sized hall, that doesn't appear to justify any of the expenditure you just encountered. In the back you spot an opening and a staircase, leading downwards. To the left there is a full board of controls and two figures unhastily operating them. You can't look around any more, as you are approached quickly by an impressive sized person, already bellowing a few direct words with a booming voice.[line break][line break][italic type] - Dunia! Who is this? Explain yourself![line break][line break]- A guest of sorts. He stumbled about the Ascent when I found him. I don't think he's a Techie, at least he has a slightly better manners and he keeps his voice down to a sensible level when talking. Besides, I thought about his use in regard to certain issues, due to his undujulike appearance.[line break][line break][roman type]Both eyeball you thoroughly for what seems to you like hours. Eventually, the massive Duju makes a quick motion towards Dunia, indicating her to follow him. He shoots a last glance at you.[line break][line break][italic type]- Don't let yourself be found sniffing around somewhere, it would not contribute to your wellbeing.[line break][line break][roman type] They march off, disappearing into the opening at the end of the hall. You are not guarded, it seems like you could [bold type]look around[roman type]. Of course you could also do as you were told and [bold type]wait[roman type].";
+		say "Inside you find yourself in the midst of a small-sized hall, that doesn't appear to justify any of the expenditure you just encountered. In the back you spot an opening and a staircase, leading downwards. To the left there is a full board of controls and two figures unhastily operating them. You can't look around any more, as you are approached quickly by an impressive sized person, already bellowing a few direct words with a booming voice.[line break][line break][italic type] - Dunia! Who is this? Explain yourself![line break][line break]- A guest of sorts. He stumbled about the Ascent when I found him. I don't think he's a Techie, at least he has a slightly better manners and he keeps his voice down to a sensible level when talking. Besides, I thought about his use in regard to certain issues, due to his undujulike appearance.[line break][line break][roman type]Both eyeball you thoroughly for what seems to you like hours. Eventually, the massive Duju makes a quick motion towards Dunia, indicating her to follow him. He shoots a last glance at you.[line break][line break][italic type]- Don't let yourself be found sniffing around somewhere, it would not contribute to your wellbeing.[line break][line break][roman type] They march off, disappearing into the opening at the end of the hall. You are not guarded, it seems like you could [bold type]look [roman type]around. Of course you could also do as you were told and [bold type]wait[roman type].";
 		now Dunia is in the Lower Gate_Frizza;
 		now Du'un is in the Lower Gate_Frizza;
 	else:
 		say "[italic type]Begone with you! I don't want anything to do with that!"
 		
-A console, a weapon's rack and two Duju are in the Upper Gate_Frizza.
-A gun is on the weapon's rack.
-The description of the console is "A huge oval table, full of ... nothing, actually. All you see is a reflective surface, into which the operators dunk their hands, emitting small waves. Where they touch the surface, you believe to see tiny, interlinked pulses of blue light, like a neural system, but you can't be sure. As you study the console, the two operators become aware of you, freezing in their motion and watching you suspiciously."
+A console and a weapon's rack are in the Upper Gate_Frizza. 
+The description of the console is "A huge oval table, full of ... nothing, actually. All you see is a reflective surface, into which the operators dunk their hands, emitting small waves. Where they touch the surface, you believe to see tiny, interlinked pulses of blue light, like a neural system, but you can't be sure."
+A gun is on the weapon's rack. The description of the gun is "An unfamiliar form of metal with a glowing core, you can barely identify it, except for the muzzle. Honestly, you wouldn't even know how to fire it."
+Duju Operator 1 and Duju Operator 2 are persons in the Upper Gate_Frizza. The description of Duju Operator 1 is "They seem very focussed. Their bodies pulse with light - something you haven't seen with the other types yet." The description of Duju Operator 2 is "They seem very focussed. Their bodies pulse with light - something you haven't seen with the other types yet."
+Instead of taking the console, say "It's huge. Besides, you don't even dare touch it."
+Instead of taking the weapon's rack, say "That's would be rather unpractical."
+Instead of taking the gun for the first time, say "Until now you were considered peaceful. Taking a foreign gun in the middle of a foreign building could change that impression. Think good before taking it."
 
+[Gun]
+After taking the gun for the second time, say "Instantly you hear shouts and calls behind you. Before even having the chance to turn, you are brutally knocked over and knocked unconscious by a heavy blow. [line break][line break] For a long time you seem to float through thick dark space, sometimes you feel an edge of something metal painfully thrust into your side. As you awake you find yourself in a small chamber with a sterile atmosphere. Three walls are of blank metal with blue veins in them, the fourth is vitreous and reveals a spectacular view: a vast plaza with mingling crowds of glowing shapes, surrounded by exotic buildings made out of crystal and white metal, transportation vehicles of no known origin and static guards, as heavily armed as the ones you saw before - and all radiating a constant bluish sheen like in a dream. However, as much as you see, as little you hear. The chamber seems to be soundproof. The impressions are overwhelming, you feel the exhaustion coming back and fall asleep where you lie."
+[--]
+
+[Console]
+After examining the console for the first time, say "As you study the console, the two operators become aware of you, freezing in their motion and watching you suspiciously."
+
+After examining the console for the second time, say "As you continue to glance at the console, one of the operators pulls his hands out of it and stands up from his chair. Obviously you don't make a good impression by standing there, maybe it would be wise to say something or disengage from the console."
+[--]
+
+[Asking Operators]
+
+After asking Duju Operator 1 about anything for the first time:
+		say "He directs his gaze towards you, before turning to the other as you fall silent. They seem to speak, though you don't understand anything. The sounds you hear are reverberant, bright clanging, like shaking a thin sheet of iron. Soon after, both of them stop their chatter and continue to operate the console, ignoring you."
+After asking Duju Operator 2 about anything:
+	say "He shortly looks at you, then goes back to work."
+
+[Waiting]
 After waiting in the Upper Gate_Frizza for the first time:
-	say "You stand still where you were left. Time passes. However, that seems to be the only thing to change."
+	say "You stand still where you were left. Time passes. However, that seems to be the only thing that changes."
 After waiting in the Upper Gate_Frizza for the second time:
 	say "You pass the time looking closer at your surroundings, but you can't interpret all too much from the metallic alien structures. The architecture somewhat reminds you of the spiritual buildings on your home planet, as for the arching walls and the high ceiling. The only thing you hear is the distant, lamish flow of the Flux and the dull sounds of the two operators at the console."
 After waiting in the Upper Gate_Frizza for the third time:
 	now Dunia is in the Upper Gate_Frizza;
 	now Du'un is in the Upper Gate_Frizza;
 	say "Finally you see the two Duju returning from the opening. As they approach the big one actually looks amazed by your decent behaviour.[line break][line break][italic type]- It seems like you did as you were told. Maybe you don't have no ill intent after all. Indeed - that is exactly what we're going to find out, if you're willing. But you see, we don't want to force anything on you, you are free to leave. But if you are interested in [bold type]helping [italic type]us, we would be glad."
+[--]
 
 
-
-
+[---]
+[Techie]
 After answering Dunia that "Techie" for the first time:
 	if Dunia is in the Ascent_Frizza:
 		say "[italic type]Then begone with you! I don't want anything to do with that!";
