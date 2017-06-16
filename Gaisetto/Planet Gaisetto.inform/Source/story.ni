@@ -3,7 +3,7 @@ The Start of the Adventure begins when play begins.
 
 When play begins:
 	 say 
-"HUNGER Bla bla"
+"You are starving. Maby there is something to eat in the jungle. The entrens is in the north. But be careful. Its like a labyrinth! Maby you should make a map on your own, otherwise you proberply get lost."
 
 		
 Jungle_Gaisetto is region. 
