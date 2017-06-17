@@ -86,11 +86,11 @@ Ilithios_Sitis is a person in the Rock Mine_Sitis. The printed name of Ilithios_
 
 Chapter 2 - Gaisetto
 
-The Start of the Adventure begins when play begins. 
+[The Start of the Adventure begins when play begins. 
 
 When play begins:
 	 say 
-"You are starving. Maby there is something to eat in the jungle. The entrens is in the north. But be careful. Its like a labyrinth! Maby you should make a map on your own, otherwise you proberply get lost."
+"You are starving. Maby there is something to eat in the jungle. The entrens is in the north. But be careful. Its like a labyrinth! Maby you should make a map on your own, otherwise you proberply get lost."]
 
 		
 Jungle_Gaisetto is region. 
@@ -235,9 +235,9 @@ Chapter 3- Geysiria
 [Eckige Klammer hier: nur der für die Übersichtlichkeit, Initialisierung]
 
 [Initialisation]
-Include Basic Screen Effects by Emily Short.
-The Start of the Adventure is a scene. The Start of the Adventure begins when play begins. 
-Axesto_Geysiria is a person. The player is Axesto_Geysiria. The printed name of Axesto_Geysiria is "Axesto".
+[Include Basic Screen Effects by Emily Short.
+The Start of the Adventure is a scene. The Start of the Adventure begins when play begins. ]
+[Axesto_Geysiria is a person. The player is Axesto_Geysiria. The printed name of Axesto_Geysiria is "Axesto".]
 [End of Initialisation]
 
 [Regions and Rooms]
@@ -259,11 +259,11 @@ When play begins:
 Chapter 4 - Frizza
 
 [Initialisation]
-Include Basic Screen Effects by Emily Short.
+[Include Basic Screen Effects by Emily Short.
 
-The Start of the Adventure is a scene. The Start of the Adventure begins when play begins. 
+The Start of the Adventure is a scene. The Start of the Adventure begins when play begins. ]
 
-Axesto_Frizza is a person. The player is Axesto_Frizza. The printed name of Axesto_Frizza is "Axesto".
+[Axesto_Frizza is a person. The player is Axesto_Frizza. The printed name of Axesto_Frizza is "Axesto".]
 [End of Initialisation]
 
 [Regions and Rooms]
@@ -410,23 +410,23 @@ Energy Orb_Frizza is an object in the Flux Core_Frizza.
 [Story]
 
 	
-When play begins:
+[When play begins:
 	 say 
-"Your ship falls through thick layers of dark clouds. Red flashes illuminate your surroundings. The lights on your console warn you of the dangerously fast approaching energy level zero. As you finally break through the last cloud, you get a glimpse of what awaits you underneath. [line break]Black planes and sharp cliffs of a dark red shape the landscape. In the [bold type]east [roman type]you perceive a massive rock formation, in the [bold type]west [roman type]you see a thick blue stream cutting through the plane , illuminating big portions of it in the process. Somewhere to the [bold type]south [roman type]there seem to be some sort of industrial constructions, far in the [bold type]north [roman type]you believe to recognize cubic shapes that reveal a city. You don't have time to study the landscape much longer. All you concentration is desperately needed as you find a gap in the ghastly cliffs and bring down your ship. Heavy jolting, followed by a sudden blow signalize your landing. [line break]Your ship's on the ground, and you are too, barely. Welcome to Frizza.";
+"Your ship falls through thick layers of dark clouds. Red flashes illuminate your surroundings. The lights on your console warn you of the dangerously fast approaching energy level zero. As you finally break through the last cloud, you get a glimpse of what awaits you underneath. [line break]Black planes and sharp cliffs of a dark red shape the landscape. In the [bold type]east [roman type]you perceive a massive rock formation, in the [bold type]west [roman type]you see a thick blue stream cutting through the plane , illuminating big portions of it in the process. Somewhere to the [bold type]south [roman type]there seem to be some sort of industrial constructions, far in the [bold type]north [roman type]you believe to recognize cubic shapes that reveal a city. You don't have time to study the landscape much longer. All you concentration is desperately needed as you find a gap in the ghastly cliffs and bring down your ship. Heavy jolting, followed by a sudden blow signalize your landing. [line break]Your ship's on the ground, and you are too, barely. Welcome to Frizza.";]
 
 [--]
 
-Chapter 1 - Somewhere on Frizza
+Section 1 - Somewhere on Frizza
 
 [Image Testsection]
 
-Include Simple Graphical Window by Emily Short.
+[Include Simple Graphical Window by Emily Short.
 Include Location Images by Emily Short.
 
 
 	Figure of Frizza is the file "wallhaven-94691.jpg".
 
-	The room-illustration of Landing Zone_Frizza is the Figure of Frizza. 
+	The room-illustration of Landing Zone_Frizza is the Figure of Frizza. ]
 	
 [--]
 
@@ -505,8 +505,8 @@ Section 1 - Crash Site
 
 [Intro]
 
-When play begins:
-	say "You got caught in a meteor shower and while trying your best to manouver your spaceship through it  your engine still took a hit. You then had to crash-land on Kaldríss - one of the most cold planets in this solar system.  Since only a few explorers made their to this planet there's not a whole lot of information available about this icy place. You are pretty much on your own now. The spaceship also won't take off before it hasn't been properly repaired. But first things first. Without any kind of heat you won't survive this bleakness for long."
+[When play begins:
+	say "You got caught in a meteor shower and while trying your best to manouver your spaceship through it  your engine still took a hit. You then had to crash-land on Kaldríss - one of the most cold planets in this solar system.  Since only a few explorers made their to this planet there's not a whole lot of information available about this icy place. You are pretty much on your own now. The spaceship also won't take off before it hasn't been properly repaired. But first things first. Without any kind of heat you won't survive this bleakness for long."]
 
 [Limited Inventory]
 The carrying capacity of the player is 3. The backpack is the player's holdall. The player is wearing the backpack. The carrying capacity of the backpack is 3.
@@ -538,12 +538,12 @@ Before taking the plasma cannon:
 The food ration is in the Spaceship Storage_Kaldríss.  The description of the food ration is "Smells kinda weird. It's super nutritious though!"
 Before taking the food ration:
 	say "Bringing food with you is never a bad idea."
-The Götti is in the Spaceship Storage_Kaldríss. The description of the Götti is "Who would've thought you and your fellow Götti would end up here? On the coldest planet this solar system has to offer. He must be freezing."
+[The Götti is in the Spaceship Storage_Kaldríss. The description of the Götti is "Who would've thought you and your fellow Götti would end up here? On the coldest planet this solar system has to offer. He must be freezing."
 Before taking the Götti:
-	say "I'm really impressed by how adaptive this creature is. The cold doesn't seem to bother it at all and it even seems like it want's to come with me."
-The smoke nodule is in the Spaceship Storage_Kaldríss. The description of the smoke nodule is "You picked one of these up during your escape from Gaisetto. That was one hell of an escape!"
+	say "I'm really impressed by how adaptive this creature is. The cold doesn't seem to bother it at all and it even seems like it want's to come with me."]
+[The smoke nodule is in the Spaceship Storage_Kaldríss. The description of the smoke nodule is "You picked one of these up during your escape from Gaisetto. That was one hell of an escape!"
 Before taking the smoke nodule:
-	say "I totally forgot that I took one of these with me during my escape from the Gaisetto jungle."
+	say "I totally forgot that I took one of these with me during my escape from the Gaisetto jungle."]
 The encryption key is in the command panel. The encryption key can be taken.
 
 [Hidden Items/Riddles]
