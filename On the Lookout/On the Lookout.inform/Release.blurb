@@ -1,28 +1,28 @@
 ! Blurb file created by Inform build 6M62
 
-status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "D:\Documents\Scrum-2017\Gaisetto\Planet Gaisetto.inform\Build\StatusCblorb.html"
+status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "D:\Documents\Scrum-2017\On the Lookout\On the Lookout.inform\Build\StatusCblorb.html"
 
 
 ! Identification
 
-project folder "D:\Documents\Scrum-2017\Gaisetto\Planet Gaisetto.inform"
-release to "D:\Documents\Scrum-2017\Gaisetto\Planet Gaisetto.materials\Release"
+project folder "D:\Documents\Scrum-2017\On the Lookout\On the Lookout.inform"
+release to "D:\Documents\Scrum-2017\On the Lookout\On the Lookout.materials\Release"
 
 ! Blorb instructions
 
-storyfile leafname "Gaisetto.gblorb"
-storyfile "D:\Documents\Scrum-2017\Gaisetto\Planet Gaisetto.inform\Build\output.ulx" include
-ifiction "D:\Documents\Scrum-2017\Gaisetto\Planet Gaisetto.inform\Metadata.iFiction" include
+storyfile leafname "On the Lookout.gblorb"
+storyfile "D:\Documents\Scrum-2017\On the Lookout\On the Lookout.inform\Build\output.ulx" include
+ifiction "D:\Documents\Scrum-2017\On the Lookout\On the Lookout.inform\Metadata.iFiction" include
 cover "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
 picture 1 "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
 
 ! Placeholder variables
 
-placeholder [IFID] = "F7D6E0EC-6F44-407D-8B3A-8A2D059F407C"
+placeholder [IFID] = "193F603B-08EF-42DF-A96B-2333BAB7C3A6"
 placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2017"
-placeholder [TITLE] = "Gaisetto"
-placeholder [AUTHOR] = "Tobi The Start of the Adventure begins when play begins"
+placeholder [TITLE] = "On the Lookout"
+placeholder [AUTHOR] = "Franziska, Daniel, Kevin, Tim, Tobias"
 placeholder [BLURB] = "A work of interactive fiction."
 
 ! Other material to release

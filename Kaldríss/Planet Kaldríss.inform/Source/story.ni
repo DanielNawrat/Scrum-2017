@@ -14,7 +14,7 @@ The carrying capacity of the player is 3. The backpack is the player's holdall. 
 
 [prevent other items from being put into suit capacitor]
 
-The player wears a suit capacitor. The description of the suit capacitor is "This capacitor only holds certain types of energy sources which usually maintain the suit's functionality such as protecting the wearer from extreme temperatures. Inserting other energy sources might increase those functions even further or result in a horrible death." The suit capacitor is a container. The carrying capacity of the suit capacitor is 1. 
+The player wears a suit capacitor. The description of the suit capacitor is "This capacitor only holds certain types of energy sources which usually maintain the suit's functionality such as protecting the wearer from extreme temperatures. Inserting other energy sources might increase those functions even further or result in a horrible death." The suit capacitor is a container. The carrying capacity of the suit capacitor is 1.
 
 [Global Error Message]
 
@@ -84,8 +84,8 @@ Before going to the Crash Zone_Kaldríss:
 		stop the action.
 
 [NPCs]
-Sköllháti is a neuter animal in the Hunting Grounds_Kaldríss. "Insert description here."
-
+Sköllháti is a neuter animal in the Hunting Grounds_Kaldríss. "Grrrhrrrhrrr".
+Rymr is a person in the Hunting Grounds_Kaldríss. "Vega óvinr!".
 
 
 Section 2 - Yetíss Cave System
@@ -142,7 +142,7 @@ Hunting Lodge is north of Throne Room_Kaldríss.
 Jötunheimr Main Gate is above the Hunting Grounds_Kaldríss.
 
 [NPCs]
-Rymr is a person in the Hunting Lodge. "Insert description here."
+[Rymr is a person in the Hunting Lodge. "Insert description here."]
 Loptr is a person in the Jötunheimr Main Gate. "Insert description here."
 Wodan is a person in  the Throne Room_Kaldríss. "Insert description here."
 

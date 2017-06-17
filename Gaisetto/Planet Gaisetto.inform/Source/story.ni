@@ -9,44 +9,44 @@ When play begins:
 Jungle_Gaisetto is region. 
 
 Landingzone_Gaisetto is a room in the Jungle_Gaisetto. The printed name of Landingzone_Gaisetto is "Landingzone".
-Jungle_1 is a room. The printed name of Jungle_1 is "Jungle north of the spaceship". 
-Jungle_2 is a room. The printed name of Jungle_2 is "Jungle west of the spaceship".
-Jungle_3 is a room. The printed name of Jungle_3 is "Jungle north west of the spaceship".
-Jungle_5 is a room. The printed name of Jungle_5 is "Jungle north of the spaceship".
-Jungle_6 is a room. The printed name of Jungle_6 is "Jungle north east of the spaceship".
-Jungle_7 is a room. The printed name of Jungle_7 is "Jungle north east of the Spaceship".
-Jungle_8 is a room. The printed name of Jungle_8 is "Jungle east of the Spaceship".
-Jungle_9 is a room. The printed name of Jungle_9 is "Jungle south east of the Spaceship".
-Jungle_10 is a room. The printed name of Jungle_10 is "Jungle south of the Spaceship".
-Jungle_11 is a room. The printed name of Jungle_11 is "Jungle west of the Spaceship".
-Jungle_12 is a room. The printed name of Jungle_12 is "Jungle north west of the Spaceship".
-Jungle_13 is a room. The printed name of Jungle_13 is "Jungle north west of the Spaceship".
-Jungle_14 is a room. The printed name of Jungle_14 is "Jungle north west of the Spaceship".
-Jungle_15 is a room. The printed name of Jungle_15 is "Jungle north west of the Spaceship".
-Jungle_16 is a room. The printed name of Jungle_16 is "Jungle north of the Spaceship".
-Jungle_17 is a room. The printed name of Jungle_17 is "Jungle north east of the Spaceship".
-Jungle_18 is a room. The printed name of Jungle_18 is "Jungle north east of the Spaceship".
-Jungle_20 is a room. The printed name of Jungle_20 is "Jungle north east of the Spaceship".
-Jungle_21 is a room. The printed name of Jungle_21 is "Jungle east of the Spaceship".
-Jungle_22 is a room. The printed name of Jungle_22 is "Jungle west of the Spaceship".
-Jungle_23 is a room. The printed name of Jungle_23 is "Jungle north west of the Spaceship".
-Jungle_26 is a room. The printed name of Jungle_26 is "Jungle south west of the Spaceship". the description of the Jungle_26 is "there are some tropical fruits hanging from this tree..."
-Jungle_27 is a room. The printed name of Jungle_27 is "Jungle south west of the Spaceship".
-Jungle_28 is a room. The printed name of Jungle_28 is "Jungle south west of the Spaceship".
-Jungle_29 is a room. The printed name of Jungle_29 is "Jungle north east of the Spaceship".
-Jungle_30 is a room. The printed name of Jungle_30 is "Jungle north east of the Spaceship".  the description of the Jungle_30 is "There are some footprints..."
-Jungle_31 is a room. The printed name of Jungle_31 is "Jungle north east of the Spaceship". the description of the Jungle_31 is "Even more footprints..."
-Jungle_32 is a room. The printed name of Jungle_32 is "Jungle north east of the Spaceship". the description of the Jungle_32 is "You seem to be close to a animal shelter!"
-Jungle_33 is a room. The printed name of Jungle_33 is "Jungle north east of the Spaceship".
-Jungle_34 is a room. The printed name of Jungle_34 is "Jungle north east of the Spaceship".
-Jungle_35 is a room. The printed name of Jungle_35 is "Jungle north east of the Spaceship".
-Jungle_36 is a room. The printed name of Jungle_36 is "Jungle east of the Spaceship".
-Jungle_37 is a room. The printed name of Jungle_37 is "Jungle north east of the Spaceship".
-Jungle_38 is a room. The printed name of Jungle_38 is "Jungle north west of the Spaceship".
-Jungle_39 is a room. The printed name of Jungle_39 is "Jungle north east of the Spaceship".
-Jungle_24 is a room. The printed name of Jungle_24 is "Jungle north of the spaceship".
-Jungle_40 is a room. The printed name of Jungle_40 is "Jungle north west of the Spaceship".
-Jungle_4 is a room. The printed name of Jungle_4 is "Jungle north west of the Spaceship".
+Jungle_1 is a room in the Jungle_Gaisetto. The printed name of Jungle_1 is "Jungle north of the spaceship". 
+Jungle_2 is a room in the Jungle_Gaisetto. The printed name of Jungle_2 is "Jungle west of the spaceship".
+Jungle_3 is a room in the Jungle_Gaisetto. The printed name of Jungle_3 is "Jungle north west of the spaceship".
+Jungle_5 is a room in the Jungle_Gaisetto. The printed name of Jungle_5 is "Jungle north of the spaceship".
+Jungle_6 is a room in the Jungle_Gaisetto. The printed name of Jungle_6 is "Jungle north east of the spaceship".
+Jungle_7 is a room in the Jungle_Gaisetto. The printed name of Jungle_7 is "Jungle north east of the Spaceship".
+Jungle_8 is a room in the Jungle_Gaisetto. The printed name of Jungle_8 is "Jungle east of the Spaceship".
+Jungle_9 is a room in the Jungle_Gaisetto. The printed name of Jungle_9 is "Jungle south east of the Spaceship".
+Jungle_10 is a room in the Jungle_Gaisetto. The printed name of Jungle_10 is "Jungle south of the Spaceship".
+Jungle_11 is a room in the Jungle_Gaisetto. The printed name of Jungle_11 is "Jungle west of the Spaceship".
+Jungle_12 is a room in the Jungle_Gaisetto. The printed name of Jungle_12 is "Jungle north west of the Spaceship".
+Jungle_13 is a room in the Jungle_Gaisetto. The printed name of Jungle_13 is "Jungle north west of the Spaceship".
+Jungle_14 is a room in the Jungle_Gaisetto. The printed name of Jungle_14 is "Jungle north west of the Spaceship".
+Jungle_15 is a room in the Jungle_Gaisetto. The printed name of Jungle_15 is "Jungle north west of the Spaceship".
+Jungle_16 is a room in the Jungle_Gaisetto. The printed name of Jungle_16 is "Jungle north of the Spaceship".
+Jungle_17 is a room in the Jungle_Gaisetto. The printed name of Jungle_17 is "Jungle north east of the Spaceship".
+Jungle_18 is a room in the Jungle_Gaisetto. The printed name of Jungle_18 is "Jungle north east of the Spaceship".
+Jungle_20 is a room in the Jungle_Gaisetto. The printed name of Jungle_20 is "Jungle north east of the Spaceship".
+Jungle_21 is a room in the Jungle_Gaisetto. The printed name of Jungle_21 is "Jungle east of the Spaceship".
+Jungle_22 is a room in the Jungle_Gaisetto. The printed name of Jungle_22 is "Jungle west of the Spaceship".
+Jungle_23 is a room in the Jungle_Gaisetto. The printed name of Jungle_23 is "Jungle north west of the Spaceship".
+Jungle_26 is a room in the Jungle_Gaisetto. The printed name of Jungle_26 is "Jungle south west of the Spaceship". the description of the Jungle_26 is "there are some tropical fruits hanging from this tree..."
+Jungle_27 is a room in the Jungle_Gaisetto. The printed name of Jungle_27 is "Jungle south west of the Spaceship".
+Jungle_28 is a room in the Jungle_Gaisetto. The printed name of Jungle_28 is "Jungle south west of the Spaceship".
+Jungle_29 is a room in the Jungle_Gaisetto. The printed name of Jungle_29 is "Jungle north east of the Spaceship".
+Jungle_30 is a room in the Jungle_Gaisetto. The printed name of Jungle_30 is "Jungle north east of the Spaceship".  the description of the Jungle_30 is "There are some footprints..."
+Jungle_31 is a room in the Jungle_Gaisetto. The printed name of Jungle_31 is "Jungle north east of the Spaceship". the description of the Jungle_31 is "Even more footprints..."
+Jungle_32 is a room in the Jungle_Gaisetto. The printed name of Jungle_32 is "Jungle north east of the Spaceship". the description of the Jungle_32 is "You seem to be close to a animal shelter!"
+Jungle_33 is a room in the Jungle_Gaisetto. The printed name of Jungle_33 is "Jungle north east of the Spaceship".
+Jungle_34 is a room in the Jungle_Gaisetto. The printed name of Jungle_34 is "Jungle north east of the Spaceship".
+Jungle_35 is a room in the Jungle_Gaisetto. The printed name of Jungle_35 is "Jungle north east of the Spaceship".
+Jungle_36 is a room in the Jungle_Gaisetto. The printed name of Jungle_36 is "Jungle east of the Spaceship".
+Jungle_37 is a room in the Jungle_Gaisetto. The printed name of Jungle_37 is "Jungle north east of the Spaceship".
+Jungle_38 is a room in the Jungle_Gaisetto. The printed name of Jungle_38 is "Jungle north west of the Spaceship".
+Jungle_39 is a room in the Jungle_Gaisetto. The printed name of Jungle_39 is "Jungle north east of the Spaceship".
+Jungle_24 is a room in the Jungle_Gaisetto. The printed name of Jungle_24 is "Jungle north of the spaceship".
+Jungle_40 is a room in the Jungle_Gaisetto. The printed name of Jungle_40 is "Jungle north west of the Spaceship".
+Jungle_4 is a room in the Jungle_Gaisetto. The printed name of Jungle_4 is "Jungle north west of the Spaceship".
 
 Jungle_1 is north of Landingzone_Gaisetto.
 Jungle_5 is north of Jungle_1.
@@ -130,10 +130,24 @@ After examining Götti: move Götti to the location of the player; say "Götti f
 
 The Smoketuber is in Jungle_28.
 
+
+The Formizer_Village is a region. Village_temple is in the Formizer_Village.
+Village_temple is a room. The printed name of Vilagge_temple is "Temple".
+The Village_Square is a room in Formizer_Village. The printed name of Village_Square is "Square".
+Village_hut1 is a room in Formizer_Village. The printed name of Village_hut1 is "Hut".
+
+Formizer is person in Village_hut1.
+
+
+Village_hut1 is east of Village_Square.
+The Village_temple is south of the village_square.
+
+
+
 Before going to the Landingzone_Gaisetto:
 	unless the player carries Smoketuber:
 		move the player to the Jungle_1, without printing a room description;
-		say "You can't leave the jungle yet. There is something to find out here!";
+		say "Oh no. It looks like a landslide made a huge ditch between you and your spaceship. Proberply you need to find something to get over it";
 		stop the action.
 
 
@@ -141,6 +155,22 @@ examination is a truth state that varies. Examination is false.
 after going to the Jungle_1:
 	now examination is true.
 after going to the Landingzone_Gaisetto:
-	say "What the fuck! What are these? Are they animals? Oh no they hae weapons!"
+	say "What the fuck! What are these? Are they animals? Oh no they hae weapons! They see you and start to souround you. What are you going to do?"
+
+[
+		now Formizer is in the landingzone_gaisetto.
+
+after examining Formizer: move player to Village_temple. ]
+
+
+
+
+
+
+
+[Frucht an Götti geben damit es folgt]
+[Götti soll nciht folgen sondern reiten lassen]
+[Formizer soll nach Rückkehr zum Spaceship erscheinen]
+[Sinn der Rauchknollen?]
 
 
