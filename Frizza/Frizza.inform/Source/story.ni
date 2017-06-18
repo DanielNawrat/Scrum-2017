@@ -3,7 +3,7 @@
 [Initialisation]
 Include Basic Screen Effects by Emily Short.
 
-The Start of the Adventure is a scene. The Start of the Adventure begins when play begins. 
+The Start of the Adventure is a scene. 
 
 Axesto_Frizza is a person. The player is Axesto_Frizza. The printed name of Axesto_Frizza is "Axesto".
 [End of Initialisation]
@@ -175,6 +175,28 @@ Include Location Images by Emily Short.
 [Variables]	
 
 BlooSympathy is a truth state that varies. BlooSympathy is true.
+
+[---]
+
+[Helper Testsection]
+
+Helper is nowhere. Helper is scenery.
+
+Understand "Helper" as asking Helper about anything.
+Asking Helper about anything is an action applying to nothing. 
+Carry out asking Helper about anything:
+	now Helper is in the location of the player;
+	say "---[line break][bold type]This is the help section, you will get a list of essential commands that you can use in the game.[paragraph break][roman type]
+(e)ast - 		go east[line break]
+(w)est - 		go west[line break]
+(s)outh - 		go south[line break]
+(n)orth - 		go north[line break]
+e(x)amine - 		get information about a thing or a person[line break]
+take - 		take something[line break]
+ask someone about something - the typical way to continue a dialogue, the topics you can ask about are printed bold in the text beforehand[line break]
+wait - 			wait some time, some situations may require this[paragraph break]";
+	remove Helper from play;
+	say "End of help section[line break]---"
 
 [---]
 
