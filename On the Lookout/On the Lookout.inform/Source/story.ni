@@ -510,11 +510,11 @@ After waiting in the Upper Gate_Frizza for the third time:
 After answering Dunia that "Techie" for the first time:
 	if Dunia is in the Ascent_Frizza:
 		say "[italic type]Then begone with you! I don't want anything to do with that!";
-		now BlooSympathy is false.
+		now BlooSympathy is false.]
 
 
 
-]
+
 
 Chapter 5 - Kaldríss
 
@@ -699,10 +699,14 @@ Section 4 - Blakkríss Temple
 The Blakkríss Temple is a region. The Blakkríss Temple Entrance, the Great Hall_Kaldríss, the Spectral Bridge and the Bifröst Portal Chamber is in the Blakkríss Temple.
 
 [Rooms]
-The Blakkríss Temple Entrance is a room. "Insert description here."
-The Great Hall_Kaldríss is a room. "Insert description here." The printed name of Great Hall_Kaldríss is "Great Hall".
-The Spectral Bridge is a room. "Insert description here."
-The Bifröst Portal Chamber is a room. "Insert description here."
+The Blakkríss Temple Entrance is a room. "This seems to be the entrance of a temple of some sort. It is really huge. Like really really huge. There are also ancient rune inscriptions on every single of the pillars that make up this majestic entrance."
+
+After going to Blakkríss Temple Entrance for the first time:
+	say "Everything turned white, you completely lost track of time and suddenly you stand in front of something that looks like a huge temple of some sort. This must be it. This must be the place the Yetíss told you about which might be able to bring you and your spaceship back into the orbit. I should get going before I waste any more precious time! I think I should be good for now if I just keep going west for now."
+
+The Great Hall_Kaldríss is a room. "This seems to be the focal point of the temple. Even more rune inscriptions on the walls. Well, I should just keep going into the same direction since I can see some weird light that is coming from a little further inside the temple." The printed name of Great Hall_Kaldríss is "Great Hall".
+The Spectral Bridge is a room. "A bridge that seems to purely consist of light that is emitted in all its different spectral colors. How does this make even sense? Only one way to find out. I have to keep going west."
+The Bifröst Portal Chamber is a room. "This must be the portal chamber! Finally! Time to calibrate the portal so I can get into the orbit ASAP."
 
 [Directions]
 [The Blakkríss Temple Entrance is down from Throne Room_Kaldríss.]
