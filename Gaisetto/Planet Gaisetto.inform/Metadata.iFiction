@@ -19,7 +19,11 @@
                 <release>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <releasedate>2017-06-17</releasedate>
+=======
+                    <releasedate>2017-06-16</releasedate>
+>>>>>>> ed44c2a02e4167acd74aac441dd42c5bc666312e
 =======
                     <releasedate>2017-06-16</releasedate>
 >>>>>>> ed44c2a02e4167acd74aac441dd42c5bc666312e
@@ -37,10 +41,17 @@
             <generatorversion>6M62</generatorversion>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <originated>2017-06-17</originated>
         </colophon>
         <glulx>
             <serial>170617</serial>
+=======
+            <originated>2017-06-16</originated>
+        </colophon>
+        <glulx>
+            <serial>170616</serial>
+>>>>>>> ed44c2a02e4167acd74aac441dd42c5bc666312e
 =======
             <originated>2017-06-16</originated>
         </colophon>
