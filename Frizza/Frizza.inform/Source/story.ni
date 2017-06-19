@@ -37,9 +37,9 @@ Instead of going nowhere from the Bloo City_Frizza, say "Daunting planes and dar
 The Orbit_Frizza is above the Landing Zone_Frizza. The printed name of Orbit_Frizza is "Orbit".
 	Instead of going to the Orbit_Frizza, do nothing.
 	
-The Landing Zone_Frizza is a room. The printed name of the Landing Zone_Frizza is "Landing Zone".  The description of Landing Zone_Frizza is "You step out of your ship onto a small square in the middle of nowhere. Your ship's dead and with it the computer. It seems like you ought to explore the environment. You remeber having seen civilization-like shapes to the south and to the north." 
+The Landing Zone_Frizza is a room. The printed name of the Landing Zone_Frizza is "Landing Zone".  The description of Landing Zone_Frizza is "You step out of your ship onto a small square in the middle of nowhere. Your ship's dead and so is the computer. It seems like you ought to explore the environment. You remeber having seen civilization-like shapes to the [bold type]south-west [roman type]and to the [bold type]north[roman type]. To the [bold type]east [roman type] there is a huge mountain, to the [bold type]west [roman type]there seems to be a Flux." 
 After going from the Landing Zone_Frizza:
-		now the description of the Landing Zone_Frizza is "Your crash site.";
+		now the description of the Landing Zone_Frizza is "Your crash site. You can go in all directions.";
 		produce a room description with going spacing conventions.
 	Instead of going to the Tunnels_Frizza from the Landing Zone_Frizza, say "After looking around a bit you disover a fairly well hidden hatch. It seems to be open at the moment."
 
@@ -51,9 +51,9 @@ The Surface Flux_Frizza is a room. The Surface Flux_Frizza is west of the Landin
 			Instead of going to the Underground Flux_Frizza from the Surface Flux_Frizza, do nothing.
 
 [Mountain]
-The Ascent_Frizza is a room. The Ascent_Frizza is east of the Landing Zone_Frizza. The printed name of the Ascent_Frizza is "Ascent".  The description of the Ascent_Frizza is "The mountains are composed of stone in various shades of red and reach far to the sky. In between the cliffs and sheers you see a narrow path winding up. There is no clue on where it might lead, but you could find out."
+The Ascent_Frizza is a room. The Ascent_Frizza is east of the Landing Zone_Frizza. The printed name of the Ascent_Frizza is "Ascent".  The description of the Ascent_Frizza is "The mountains are composed of stone in various shades of red and reach far to the sky. In between the cliffs and sheers you see a narrow path winding [bold type]up[roman type]. There is no clue on where it might lead, but you could find out."
 After going from the Ascent_Frizza:
-		now the description of the Ascent_Frizza is "The foot of the mountain. A narrow path leads upwards..";
+		now the description of the Ascent_Frizza is "The foot of the mountain. A narrow path leads [bold type]up[roman type]wards..";
 		produce a room description with going spacing conventions.
 
 The Plateau_Frizza is a room. The Plateau_Frizza is above the Ascent_Frizza. The printed name of the Plateau_Frizza is "Plateau".
@@ -61,7 +61,6 @@ Instead of going to the Plateau_Frizza from the Ascent_Frizza:
 	if Dunia is not in the Ascent_Frizza:
 		say "You have the feeling of being watched. You wouldn't want to climb the cliffs if someone is around.";
 		now Dunia is in the Ascent_Frizza;
-		now the printed name of Dunia is "Someone";
 	else:
 		say "Someone's here."
 		
@@ -175,6 +174,9 @@ Include Location Images by Emily Short.
 [Variables]	
 
 BlooSympathy is a truth state that varies. BlooSympathy is true.
+ConcealedDunia is a truth state that varies. ConcealedDunia is true.
+Helplesness is a truth state that varies. Helplesness is false.
+A thing can be examined or unexamined.
 
 [---]
 
@@ -193,17 +195,27 @@ Carry out asking Helper about anything:
 (n)orth - 		go north[line break]
 e(x)amine - 		get information about a thing or a person[line break]
 take - 		take something[line break]
-ask someone about something - the typical way to continue a dialogue, the topics you can ask about are printed bold in the text beforehand[line break]
+ask someone about something - the typical way to begin a dialogue, the topics you can ask about are printed [bold type]bold [roman type]in the text beforehand[line break]
+answer something (to someone) - the typical way to respond to questions, the topics you can answer are printed [bold type]bold [roman type]in the text beforehand[line break]
 wait - 			wait some time, some situations may require this[paragraph break]";
 	remove Helper from play;
 	say "End of help section[line break]---"
 
 [---]
 
-After asking Dunia about anything for the first time:
-	say "[italic type] You are painfully near to trespass holy ground, stranger. I would advise against it. Who are you, anyway? You don't look like a Techie."
+After asking Dunia about anything:
+	if Dunia is in the Ascent_Frizza:
+		say "[if we have not examined Dunia][italic type]- You are painfully near to trespass holy ground, stranger. I would advise against it. Who are you, anyway? You don't look like a Techie. Tell me your name.[otherwise][italic type]- Answer my question first. What is your name?[end if]";
+		now ConcealedDunia is false.
+		
+After examining Dunia for the first time:
+	if Dunia is in the Ascent_Frizza:
+		if ConcealedDunia is true:
+			say "[italic type]- You are painfully near to trespass holy ground, stranger. I would advise against it. Who are you, anyway? You don't look like a Techie. Tell me your name.";
+			now ConcealedDunia is false.
 	
-After answering Dunia that "Axesto" for the first time, say "[italic type]What a strange name. It doesn't matter anyway - there's only one thing I need to know: are you on the side of the Techies or of the Duju?"
+After answering Dunia that "Axesto" for the first time, say "[italic type]What a strange name. It doesn't matter anyway - there's only one thing I need to know: are you on the side of the [bold type]Techies [roman type]or of the [bold type]Duju[roman type]?"
+
 
 [Duju]
 After answering Dunia that "Duju" for the first time:
@@ -220,7 +232,7 @@ After answering Dunia that "Duju" for the first time:
 		say "[italic type]Begone with you! I don't want anything to do with that!"
 		
 A console and a weapon's rack are in the Upper Gate_Frizza. 
-The description of the console is "A huge oval table, full of ... nothing, actually. All you see is a reflective surface, into which the operators dunk their hands, emitting small waves. Where they touch the surface, you believe to see tiny, interlinked pulses of blue light, like a neural system, but you can't be sure."
+
 A gun is on the weapon's rack. The description of the gun is "An unfamiliar form of metal with a glowing core, you can barely identify it, except for the muzzle. Honestly, you wouldn't even know how to fire it."
 Duju Operator 1 and Duju Operator 2 are persons in the Upper Gate_Frizza. The description of Duju Operator 1 is "They seem very focussed. Their bodies pulse with light - something you haven't seen with the other types yet." The description of Duju Operator 2 is "They seem very focussed. Their bodies pulse with light - something you haven't seen with the other types yet."
 Instead of taking the console, say "It's huge. Besides, you don't even dare touch it."
@@ -232,9 +244,27 @@ After taking the gun for the second time, say "Instantly you hear shouts and cal
 [--]
 
 [Console]
-After examining the console for the first time, say "As you study the console, the two operators become aware of you, freezing in their motion and watching you suspiciously."
+The console is unexamined.
 
-After examining the console for the second time, say "As you continue to glance at the console, one of the operators pulls his hands out of it and stands up from his chair. Obviously you don't make a good impression by standing there, maybe it would be wise to say something or disengage from the console."
+Before examining the console for the first time:
+	now the description of the console is "A huge oval table, full of ... nothing, actually. All you see is a reflective surface, into which the operators dunk their hands, emitting small waves. Where they touch the surface, you believe to see tiny, interlinked pulses of blue light, like a neural system, but you can't be sure. [paragraph break]As you study the console, the two operators become aware of you, freezing in their motion and watching you suspiciously."
+
+Before examining the console for the second time:
+	now the description of the console is "After taking a closer look, you make out that the energy of the Operators seems to be induced into the console. You start to see a pattern in the waves and currents of the reflective surface ... it reminds you of the great Flux currents ... [paragraph break]As you continue to glance at the console, one of the operators pulls his hands out of it and stands up from his chair. Obviously you don't make a good impression by standing there, maybe it would be wise to say something or disengage from the console."
+
+Before examining the console for the third time:
+	now the description of the console is "Before you can investigate further, the Operators suddenly burst out, chattering bright metallic sounds all over the hall. Instantly there are guards surrounding you, one of which quickly forces you to your knees and irresistibly renders you immobile with some sort of cuffs. You are carried to one corner of the hall like a very miserable sack of grain. Lying down, relaxing perforce, you await Dunia and Du'un to set you free."
+	
+After examining the console for the third time:
+	now the console is examined;
+	now Helplesness is true.
+
+Before doing something other than waiting in the Upper Gate_Frizza:
+	if Dunia is in the Lower Gate_Frizza:
+		if the console is examined:
+			say "In your present condition, that's hardly possible.";
+			stop the action.
+
 [--]
 
 [Asking Operators]
@@ -246,7 +276,10 @@ After asking Duju Operator 2 about anything:
 
 [Waiting]
 After waiting in the Upper Gate_Frizza for the first time:
-	say "You stand still where you were left. Time passes. However, that seems to be the only thing that changes."
+	if Helplesness is false:
+		say "You stand still where you were left. Time passes. However, that seems to be the only thing that changes.";
+	else:
+		say "You lie, wating, contemplating your choices."
 After waiting in the Upper Gate_Frizza for the second time:
 	say "You pass the time looking closer at your surroundings, but you can't interpret all too much from the metallic alien structures. The architecture somewhat reminds you of the spiritual buildings on your home planet, as for the arching walls and the high ceiling. The only thing you hear is the distant, lamish flow of the Flux and the dull sounds of the two operators at the console."
 After waiting in the Upper Gate_Frizza for the third time:
@@ -258,7 +291,7 @@ After waiting in the Upper Gate_Frizza for the third time:
 
 [---]
 [Techie]
-After answering Dunia that "Techie" for the first time:
+After answering Dunia that "Techies" for the first time:
 	if Dunia is in the Ascent_Frizza:
 		say "[italic type]Then begone with you! I don't want anything to do with that!";
 		now BlooSympathy is false.
