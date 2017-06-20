@@ -11,14 +11,17 @@ Mayday, Mayday - your sight is extremly limited to only a few meters, you have t
 
 Auf_der_Suche
 An Interactive Fiction by Kevin Koch
-Release 1 / Serial number 170612 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 170619 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
-Landing Zone_Geysiria
+Landing Zone
+It is windy, dusty and your sight is limited to only a few meters. Look around, as you maybe realised you are on Geysiria. The name comes from its massive Geysirs which will maybe help you out of this unpleasant vastland.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1015"></child>
-            <child nodeId="node-1041"></child>
+        <children><child nodeId="node-1029"></child>
+            <child nodeId="node-1026"></child>
+            <child nodeId="node-1023"></child>
+            <child nodeId="node-1015"></child>
             <child nodeId="node-1007"></child>
             <child nodeId="node-1005"></child>
             <child nodeId="node-1004"></child>
@@ -126,44 +129,10 @@ Axesto doesn't want to be examined.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1041">
-        <command xml:space="preserve">w</command>
-        <result xml:space="preserve">Huge cloud of ash, leave this zone as soon as possible. Risk of death, don't smother.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1042"></child>
-        </children>
-    </item>
-    <item nodeId="node-1042">
-        <command xml:space="preserve">e</command>
-        <result xml:space="preserve">Huge cloud of ash, leave this zone as soon as possible. Risk of death, don't smother.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1043"></child>
-        </children>
-    </item>
-    <item nodeId="node-1043">
-        <command xml:space="preserve">s</command>
-        <result xml:space="preserve">Huge cloud of ash, leave this zone as soon as possible. Risk of death, don't smother.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1044"></child>
-        </children>
-    </item>
-    <item nodeId="node-1044">
-        <command xml:space="preserve">n</command>
-        <result xml:space="preserve">Huge cloud of ash, leave this zone as soon as possible. Risk of death, don't smother.
-
-&gt;</result>
-        <commentary xml:space="preserve"></commentary>
-    </item>
     <item nodeId="node-1015">
-        <command xml:space="preserve"> go east</command>
+        <command xml:space="preserve">w</command>
         <result xml:space="preserve">
-beach
+Spaceship Exit
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -171,8 +140,10 @@ beach
         </children>
     </item>
     <item nodeId="node-1016">
-        <command xml:space="preserve"> go north</command>
-        <result xml:space="preserve">You can't go that way.
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Landing Zone
+It is windy, dusty and your sight is limited to only a few meters. Look around, as you maybe realised you are on Geysiria. The name comes from its massive Geysirs which will maybe help you out of this unpleasant vastland.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -180,8 +151,8 @@ beach
         </children>
     </item>
     <item nodeId="node-1017">
-        <command xml:space="preserve">go to the city</command>
-        <result xml:space="preserve">You can't see any such thing.
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">Huge cloud of ash, leave this zone as soon as possible. Risk of death, don't smother.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -189,8 +160,9 @@ beach
         </children>
     </item>
     <item nodeId="node-1018">
-        <command xml:space="preserve">go down</command>
-        <result xml:space="preserve">You can't go that way.
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Cave
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -198,8 +170,9 @@ beach
         </children>
     </item>
     <item nodeId="node-1019">
-        <command xml:space="preserve">go up</command>
-        <result xml:space="preserve">You can't go that way.
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Cave_Geysiria
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -207,8 +180,8 @@ beach
         </children>
     </item>
     <item nodeId="node-1020">
-        <command xml:space="preserve">go above</command>
-        <result xml:space="preserve">You can't see any such thing.
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You're in a cave, go explore or leave if you can't find anything you need. Geysiria is not a planet you want to spend much time on.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -216,8 +189,8 @@ beach
         </children>
     </item>
     <item nodeId="node-1021">
-        <command xml:space="preserve">fly above</command>
-        <result xml:space="preserve">That's not a verb I recognise.
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You're in a cave, go explore or leave if you can't find anything you need. Geysiria is not a planet you want to spend much time on.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -225,19 +198,16 @@ beach
         </children>
     </item>
     <item nodeId="node-1022">
-        <command xml:space="preserve">go up</command>
-        <result xml:space="preserve">You can't go that way.
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Geysir Area_Geysiria
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1023"></child>
-        </children>
     </item>
     <item nodeId="node-1023">
-        <command xml:space="preserve">west</command>
-        <result xml:space="preserve">
-landing zone
- The landing zone is where you land.
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Landing Zone_Geysiria
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -245,9 +215,9 @@ landing zone
         </children>
     </item>
     <item nodeId="node-1024">
-        <command xml:space="preserve">east</command>
+        <command xml:space="preserve">n</command>
         <result xml:space="preserve">
-beach
+Geysir Area_Geysiria
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -255,17 +225,16 @@ beach
         </children>
     </item>
     <item nodeId="node-1025">
-        <command xml:space="preserve">above</command>
-        <result xml:space="preserve">That's not a verb I recognise.
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Cave_Geysiria
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1026"></child>
-        </children>
     </item>
     <item nodeId="node-1026">
-        <command xml:space="preserve">up</command>
-        <result xml:space="preserve">You can't go that way.
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">Huge cloud of ash, leave this zone as soon as possible. Risk of death, don't smother.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -273,8 +242,8 @@ beach
         </children>
     </item>
     <item nodeId="node-1027">
-        <command xml:space="preserve">go</command>
-        <result xml:space="preserve">You'll have to say which compass direction to go in.
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">Huge cloud of ash, leave this zone as soon as possible. Risk of death, don't smother.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -282,17 +251,16 @@ beach
         </children>
     </item>
     <item nodeId="node-1028">
-        <command xml:space="preserve">clear</command>
-        <result xml:space="preserve">What do you want to clear?
+        <command xml:space="preserve">nowhere</command>
+        <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1029"></child>
-        </children>
     </item>
     <item nodeId="node-1029">
-        <command xml:space="preserve">the story</command>
-        <result xml:space="preserve">You can't see any such thing.
+        <command xml:space="preserve"> go east</command>
+        <result xml:space="preserve">
+beach
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -300,8 +268,8 @@ beach
         </children>
     </item>
     <item nodeId="node-1030">
-        <command xml:space="preserve">clear story</command>
-        <result xml:space="preserve">You can't see any such thing.
+        <command xml:space="preserve"> go north</command>
+        <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -309,8 +277,8 @@ beach
         </children>
     </item>
     <item nodeId="node-1031">
-        <command xml:space="preserve">back</command>
-        <result xml:space="preserve">That's not a verb I recognise.
+        <command xml:space="preserve">go to the city</command>
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -318,7 +286,7 @@ beach
         </children>
     </item>
     <item nodeId="node-1032">
-        <command xml:space="preserve">e</command>
+        <command xml:space="preserve">go down</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
@@ -327,10 +295,8 @@ beach
         </children>
     </item>
     <item nodeId="node-1033">
-        <command xml:space="preserve">w</command>
-        <result xml:space="preserve">
-landing zone
- The landing zone is where you land.
+        <command xml:space="preserve">go up</command>
+        <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -338,9 +304,8 @@ landing zone
         </children>
     </item>
     <item nodeId="node-1034">
-        <command xml:space="preserve">e</command>
-        <result xml:space="preserve">
-beach
+        <command xml:space="preserve">go above</command>
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -348,8 +313,8 @@ beach
         </children>
     </item>
     <item nodeId="node-1035">
-        <command xml:space="preserve">d</command>
-        <result xml:space="preserve">You can't go that way.
+        <command xml:space="preserve">fly above</command>
+        <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -357,7 +322,7 @@ beach
         </children>
     </item>
     <item nodeId="node-1036">
-        <command xml:space="preserve">u</command>
+        <command xml:space="preserve">go up</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
@@ -366,8 +331,10 @@ beach
         </children>
     </item>
     <item nodeId="node-1037">
-        <command xml:space="preserve">examine</command>
-        <result xml:space="preserve">What do you want to examine?
+        <command xml:space="preserve">west</command>
+        <result xml:space="preserve">
+landing zone
+ The landing zone is where you land.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -375,6 +342,136 @@ beach
         </children>
     </item>
     <item nodeId="node-1038">
+        <command xml:space="preserve">east</command>
+        <result xml:space="preserve">
+beach
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1039"></child>
+        </children>
+    </item>
+    <item nodeId="node-1039">
+        <command xml:space="preserve">above</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1040"></child>
+        </children>
+    </item>
+    <item nodeId="node-1040">
+        <command xml:space="preserve">up</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1041"></child>
+        </children>
+    </item>
+    <item nodeId="node-1041">
+        <command xml:space="preserve">go</command>
+        <result xml:space="preserve">You'll have to say which compass direction to go in.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1042"></child>
+        </children>
+    </item>
+    <item nodeId="node-1042">
+        <command xml:space="preserve">clear</command>
+        <result xml:space="preserve">What do you want to clear?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1043"></child>
+        </children>
+    </item>
+    <item nodeId="node-1043">
+        <command xml:space="preserve">the story</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1044"></child>
+        </children>
+    </item>
+    <item nodeId="node-1044">
+        <command xml:space="preserve">clear story</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1045"></child>
+        </children>
+    </item>
+    <item nodeId="node-1045">
+        <command xml:space="preserve">back</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1046"></child>
+        </children>
+    </item>
+    <item nodeId="node-1046">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1047"></child>
+        </children>
+    </item>
+    <item nodeId="node-1047">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+landing zone
+ The landing zone is where you land.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1048"></child>
+        </children>
+    </item>
+    <item nodeId="node-1048">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+beach
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1049"></child>
+        </children>
+    </item>
+    <item nodeId="node-1049">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1050"></child>
+        </children>
+    </item>
+    <item nodeId="node-1050">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1051"></child>
+        </children>
+    </item>
+    <item nodeId="node-1051">
+        <command xml:space="preserve">examine</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1052"></child>
+        </children>
+    </item>
+    <item nodeId="node-1052">
         <command xml:space="preserve">x</command>
         <result xml:space="preserve">What do you want to examine?
 

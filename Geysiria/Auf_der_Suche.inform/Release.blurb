@@ -1,18 +1,18 @@
 ! Blurb file created by Inform build 6M62
 
-status "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/CblorbModel.html" "/Users/kevinkoch/Desktop/Uni/Auf der Suche Programmierung/Auf_der_Suche.inform/Build/StatusCblorb.html"
+status "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/CblorbModel.html" "/Users/kevinkoch/Documents/Scrum-2017/Geysiria/Auf_der_Suche.inform/Build/StatusCblorb.html"
 
 
 ! Identification
 
-project folder "/Users/kevinkoch/Desktop/Uni/Auf der Suche Programmierung/Auf_der_Suche.inform"
-release to "/Users/kevinkoch/Desktop/Uni/Auf der Suche Programmierung/Auf_der_Suche.materials/Release"
+project folder "/Users/kevinkoch/Documents/Scrum-2017/Geysiria/Auf_der_Suche.inform"
+release to "/Users/kevinkoch/Documents/Scrum-2017/Geysiria/Auf_der_Suche.materials/Release"
 
 ! Blorb instructions
 
 storyfile leafname "Auf_der_Suche.gblorb"
-storyfile "/Users/kevinkoch/Desktop/Uni/Auf der Suche Programmierung/Auf_der_Suche.inform/Build/output.ulx" include
-ifiction "/Users/kevinkoch/Desktop/Uni/Auf der Suche Programmierung/Auf_der_Suche.inform/Metadata.iFiction" include
+storyfile "/Users/kevinkoch/Documents/Scrum-2017/Geysiria/Auf_der_Suche.inform/Build/output.ulx" include
+ifiction "/Users/kevinkoch/Documents/Scrum-2017/Geysiria/Auf_der_Suche.inform/Metadata.iFiction" include
 cover "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/Cover.jpg"
 picture 1 "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/Cover.jpg"
 
