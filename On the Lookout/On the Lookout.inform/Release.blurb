@@ -1,0 +1,54 @@
+! Blurb file created by Inform build 6M62
+
+<<<<<<< HEAD
+status "C:\Users\tgasc_000\Desktop\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Users\tgasc_000\Documents\GitHub\Scrum-2017\On the Lookout\On the Lookout.inform\Build\StatusCblorb.html"
+=======
+status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Users\Franzi\Documents\GitHub\Scrum-2017\On the Lookout\On the Lookout.inform\Build\StatusCblorb.html"
+>>>>>>> b03d07eb3ede4c696c4c07e528a0d6c8ed514da4
+
+
+! Identification
+
+<<<<<<< HEAD
+project folder "C:\Users\tgasc_000\Documents\GitHub\Scrum-2017\On the Lookout\On the Lookout.inform"
+release to "C:\Users\tgasc_000\Documents\GitHub\Scrum-2017\On the Lookout\On the Lookout.materials\Release"
+=======
+project folder "C:\Users\Franzi\Documents\GitHub\Scrum-2017\On the Lookout\On the Lookout.inform"
+release to "C:\Users\Franzi\Documents\GitHub\Scrum-2017\On the Lookout\On the Lookout.materials\Release"
+>>>>>>> b03d07eb3ede4c696c4c07e528a0d6c8ed514da4
+
+! Blorb instructions
+
+storyfile leafname "On the Lookout.gblorb"
+<<<<<<< HEAD
+storyfile "C:\Users\tgasc_000\Documents\GitHub\Scrum-2017\On the Lookout\On the Lookout.inform\Build\output.ulx" include
+ifiction "C:\Users\tgasc_000\Documents\GitHub\Scrum-2017\On the Lookout\On the Lookout.inform\Metadata.iFiction" include
+cover "C:\Users\tgasc_000\Desktop\Inform 7\Internal\Miscellany\Cover.jpg"
+picture 1 "C:\Users\tgasc_000\Desktop\Inform 7\Internal\Miscellany\Cover.jpg"
+=======
+storyfile "C:\Users\Franzi\Documents\GitHub\Scrum-2017\On the Lookout\On the Lookout.inform\Build\output.ulx" include
+ifiction "C:\Users\Franzi\Documents\GitHub\Scrum-2017\On the Lookout\On the Lookout.inform\Metadata.iFiction" include
+cover "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
+picture 1 "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
+>>>>>>> b03d07eb3ede4c696c4c07e528a0d6c8ed514da4
+
+! Placeholder variables
+
+placeholder [IFID] = "193F603B-08EF-42DF-A96B-2333BAB7C3A6"
+placeholder [RELEASE] = "1"
+placeholder [YEAR] = "2017"
+placeholder [TITLE] = "On the Lookout"
+placeholder [AUTHOR] = "Franziska, Daniel, Kevin, Tim, Tobias"
+placeholder [BLURB] = "A work of interactive fiction."
+
+! Other material to release
+
+status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc403.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a website'&nbsp;<a href=inform:/doc405.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with an interpreter', for in-browser play on your website&nbsp;<a href=inform:/doc406.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc401.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc411.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory postcard'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||

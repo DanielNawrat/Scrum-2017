@@ -16,19 +16,15 @@ Axesto_Sitis is a person. The Player is Axesto_Sitis. The printed name of Axesto
 The Landing Zone_Sitis is a region. The Flat Rock_Sitis is in the Landing Zone_Sitis.
 
 [1. Raum]
-The Flat Rock_Sitis is a room. The printed name of the Flat Rock _Sitis is "Your arrival point. The Flat Rock". "[italic type] You land on a big flat grey stone. You think, the landing was quite easy but as you leave your spaceship, you realise that two of your three water container broke down. Without minimal one new watertank you can not continue your journey [roman type]."
+The Flat Rock_Sitis is a room. The printed name of the Flat Rock _Sitis is "Your arrival point. The Flat Rock". "[italic type] You arrive on a planet called Sitis. The arrival should have been easy because you had the possibility to land on a big flat stone but as you leave your spaceship, you realise that two of your three water container broke down. Without minimum one new watertank you can not continue your journey. Far away in the east you recognise some kind of different rooftops. Maybe someones living there who could help you? [roman type]"
 
-[Instead of going north, say "You follow the mountain's way into a canyon. All you can see is a big field of cactuses. You can't pass them."
-Instead of going south, say "Here seems to be the end of Sitis. You can't go this way any longer."
-Instead of going west, say "You arrive at a stone cave. As you try to enter, small stones fall off the ceiling. Hurry up, you need to go back fast!"]
-
-
+[Beschreibungen für andere Himmelsrichtungen?]
 
 [Region 2 - The Desert of Sitis]
-The Desert_Sitis is a region. The Wide Desert of Sitis_Sitis, the Protection Bridge_Sitis, the Rampart of Sicuum_Sitis and the Rock Mine_Sitis are in the Desert_Sitis.
+The Desert_Sitis is a region. The Wide Desert of Sitis_Sitis, the Protection Bridge_Sitis and the Rampart of Sicuum_Sitis are in the Desert_Sitis.
 
 [Räume]
-The Wide Desert of Sitis_Sitis is a room. The printed name of the Wide Desert of Sitis_Sitis is "The Wide Desert". "[italic type] The Desert of Sitis gives you the chance to gain orientation. When you look north you see a big brown golden palace. In the east you recognize an old dark House. Description missed! When you look south you recognize a lot of small white houses. It seems like people are living there [roman type]."
+The Wide Desert of Sitis_Sitis is a room. The printed name of the Wide Desert of Sitis_Sitis is "The Wide Desert". "[italic type] You've reached the Desert of Sitis. It gives you two things: First, an impression of what whole Sitis looks like - sandy, dry, with some deep stone canyons and huge rocks afar. But although this planet does not seem to be a place to life, the Desert also gives you the chance to discern that you are not alone. There IS life! When you look north, directly in front of you is a long corrugated iron bridge, guiding over one of those ravines. You can not access the bridge, it is blocked with a barbed wire fence, but straight ahead, at the end you see a majestic sandstone palace. In the bridge's middel, a wooden ladder leads to an enormous square block in the east. Likewise it is built out of stone and gives a somber impression. If you look east from the point you are standing at right now you realise that the canyon When you look south you recognize a lot of small white houses. It seems like people are living there [roman type]."
 The Wide Desert of Sitis_Sitis is east of the Flat Rock_Sitis. 
 
 The Protection Bridge_Sitis is a room. The printed name of the Protection Bridge_Sitis is "The Protection Bridge". 
@@ -37,13 +33,15 @@ The Protection Bridge_Sitis is north of the Wide Desert of Sitis_Sitis.
 The Rampart of Sicuum_Sitis is a room. The printed name of the Rampart of Sicuum_Sitis is "The Rampart of Sicuum". 
 The Rampart of Sicuum_Sitis is south of the Wide Desert of Sitis_Sitis.
 
-The Rock Mine_Sitis is a room. The printed name of the Rock Mine_Sitis is "The Rock Mine". The Rock Mine_Sitis is east of the Wide Desert of Sitis_Sitis. 
+
+
+
 
 
 
 [Region 3 - The Village Sicuum]
 The Village Sicuum_Sitis is a region. The printed name of the Village Sicuum_Sitis is "The Village Sicuum". 
-The Agora_Sitis, the Domum Praesidium_Sitis, the Shelter_Sitis and the Secret Passage_Sitis are in the Village Sicuum_Sitis.
+The Agora_Sitis, the Domum Praesidium_Sitis, the Shelter_Sitis, the Secret Passage_Sitis and the Rock Mine_Sitis are in the Village Sicuum_Sitis.
 
 [Räume]
 The Agora_Sitis is a room. The printed name of the Agora_Sitis is "The Agora of Sicuum". The Agora_Sitis is south of the Rampart of Sicuum_Sitis.
@@ -54,6 +52,8 @@ The Shelter_Sitis is a room. The printed name of the Shelter_Sitis is "Your Shel
 
 The Secret Passage_Sitis is a room. The printed name of the Secret Passage is "A secret Passage". 
 The Secret Passage_Sitis is north of the Shelter_Sitis.
+
+The Rock Mine_Sitis is a room. The printed name of the Rock Mine_Sitis is "The Rock Mine". The Rock Mine_Sitis is north of the Secret Passage_Sitis. 
 
 
 [Region 4 - The Jail]
@@ -81,6 +81,8 @@ Scorpius_Sitis is a person in the Holy Palace_Sitis. The printed name of Scorpiu
 Machitikos_Sitis is a person in the Holy Palace_Sitis. The printed name of Machitikos_Sitis is "Machitikos". 
 Ilithios_Sitis is a person in the Rock Mine_Sitis. The printed name of Ilithios_Sitis is "Ilithios". 
 
+[Personen bewegen]
 
 
 
+[instead of going nowhere from xy, say ]
