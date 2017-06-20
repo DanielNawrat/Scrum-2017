@@ -135,16 +135,39 @@ The Formizer_Village is a region. Village_temple is in the Formizer_Village.
 Village_temple is a room. The printed name of Vilagge_temple is "Temple".
 The Village_Square is a room in Formizer_Village. The printed name of Village_Square is "Square".
 Village_hut1 is a room in Formizer_Village. The printed name of Village_hut1 is "Hut".
-
-Formizer is person in Village_hut1.
-
+Village_hut2 is a room in Formizer_Village. The printed name of Village_hut2 is "Hut".
+Village_square2 is a room in Formizer_village. The printed name of the Vilage_square2 is "Square".
+Village_hut3 is a room in Formizer_Village. The printed name of the Village_hut3 is "Hut".
+Village_Hut4 is a room in Formizer_Village. The printed name of the Village_hut4 is "Hut".
+Village_Path is a room in Formizer_Village. The printed name of the Village_path is "Path".
+Village_stable is a room in Formizer_Village. The printed name of the Village_hut5 is "Stable".
+Village_gate is a room in Formizer_Village. The printed name of the Village_gate is "Gate".
+Jungle_by_Village is a room in the Jungle_Gaisetto. The printed name of Jungle_by_Village is "Jungle".
 
 Village_hut1 is east of Village_Square.
-The Village_temple is south of the village_square.
+The Village_temple is north of the village_square.
+Village_hut2 is west of the village_square.
+Village_square2 is south of village_square.
+Village_hut3 is west of the Village_square2.
+Village_hut4 is east of the Village_Square2.
+Village_path is south of Village_Square2.
+Village_stable is east of Village_path.
+Village_gate is west of Village_path.
+Jungle_by_village is west of Village_gate.
 
+Formizer_soldier is person in Village_gate.
+Formizer_chaman is a person in Village_temple.
+Formizer_worker1 is a person in Village_hut2.
+Formizer_worker2 is a person in Village_hut1.
+Formizer_worker3 is a person in Village_hut3.
+Formizer_worker4 is a person in Village_hut4.
+
+[understand "feed" Götti with Fruit_1 as giving Götti Fruit_1.
+understand "ride Götti as take Götti with you.]
 
 
 Before going to the Landingzone_Gaisetto:
+[	unless the player ride Götti:]
 	unless the player carries Smoketuber:
 		move the player to the Jungle_1, without printing a room description;
 		say "Oh no. It looks like a landslide made a huge ditch between you and your spaceship. Proberply you need to find something to get over it";
@@ -157,10 +180,9 @@ after going to the Jungle_1:
 after going to the Landingzone_Gaisetto:
 	say "What the fuck! What are these? Are they animals? Oh no they hae weapons! They see you and start to souround you. What are you going to do?"
 
-[
-		now Formizer is in the landingzone_gaisetto.
+after examing Smoketuber now Formizer is in the landingzone_gaisetto.
 
-after examining Formizer: move player to Village_temple. ]
+after attacking Formizer: move player to Village_temple. 
 
 
 

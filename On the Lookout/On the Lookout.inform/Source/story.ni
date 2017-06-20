@@ -5,7 +5,7 @@ Chapter 1 - Sitis
 
 [Beginn meiner Mapkonstruktion - Landing Zone, Wüste und Sicuum]
 
-[Include Basic Screen Effects by Emily Short.
+Include Basic Screen Effects by Emily Short.
 The Start of the Adventure is a scene. The Start of the Adventure begins when play begins.
 
 [Description left! - Warum ist Axesto hier? Was ist sein Ziel]
@@ -510,7 +510,7 @@ After waiting in the Upper Gate_Frizza for the third time:
 After answering Dunia that "Techie" for the first time:
 	if Dunia is in the Ascent_Frizza:
 		say "[italic type]Then begone with you! I don't want anything to do with that!";
-		now BlooSympathy is false.]
+		now BlooSympathy is false.
 
 
 
